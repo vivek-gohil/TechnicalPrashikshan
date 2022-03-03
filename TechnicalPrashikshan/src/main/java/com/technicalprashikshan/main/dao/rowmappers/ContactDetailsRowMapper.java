@@ -24,9 +24,13 @@ public class ContactDetailsRowMapper implements RowMapper<ContactDetails> {
 		contactDetails.setContactId(resultSet.getInt("contact_id"));
 		contactDetails.setFirstName(resultSet.getString("first_name"));
 		contactDetails.setLastName(resultSet.getString("last_name"));
-		contactDetails.setEmail(resultSet.getString("email"));
-		contactDetails.setContactNumber(resultSet.getString("contact_number"));
-
+		contactDetails.setContactNumberOne(resultSet.getString("contact_number_1"));
+		contactDetails.setContactNumberTwo(resultSet.getString("contact_number_2"));
+		contactDetails.setEmailOne(resultSet.getString("email_1"));
+		contactDetails.setEmailTwo(resultSet.getString("email_2"));
+		contactDetails.setContactType(resultSet.getString("contact_type"));
+		contactDetails.setContactStatus(resultSet.getString("contact_status"));
+		
 		logger.info(contactDetails.toString());
 
 		return contactDetails;

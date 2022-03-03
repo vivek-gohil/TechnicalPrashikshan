@@ -20,8 +20,8 @@ public class ContactDetailsDAO implements ContactDetailsDAOInterface {
 
 	private static final Logger logger = LoggerFactory.getLogger(ContactDetailsDAO.class);
 
-	private static final String insertNewContactDetails = "insert into contact_master(first_name,last_name,email,contact_number) values(?,?,?,?)";
-	private static final String updateContactDetails = "update contact_master set first_name = ? , last_name = ? , email = ? , contact_number = ? where contact_id = ?";
+	private static final String insertNewContactDetails = "insert into contact_master (first_name, last_name, contact_number_1, contact_number_2, email_1, email_2, contact_type, contact_status) values(?,?,?,?,?,?,?,?)";
+	private static final String updateContactDetails = "update contact_master set first_name = ?, last_name = ?, contact_number_1 = ?, contact_number_2 = ?, email_1 = ?, email_2 = ?, contact_type = ?, contact_status = ? where contact_id = ?";
 	private static final String deleteContactDetails = "delete from contact_master where contact_id = ?";
 	private static final String selectContactDetailsByContactId = "select * from contact_master where contact_id = ?";
 	private static final String selectAllContactDetails = "select * from contact_master order by first_name";
@@ -49,8 +49,13 @@ public class ContactDetailsDAO implements ContactDetailsDAOInterface {
 					new String[] { "contact_id" });
 			preparedStatement.setString(1, contactDetails.getFirstName());
 			preparedStatement.setString(2, contactDetails.getLastName());
-			preparedStatement.setString(3, contactDetails.getEmail());
-			preparedStatement.setString(4, contactDetails.getContactNumber());
+			preparedStatement.setString(3, contactDetails.getContactNumberOne());
+			preparedStatement.setString(4, contactDetails.getContactNumberTwo());
+			preparedStatement.setString(5, contactDetails.getEmailOne());
+			preparedStatement.setString(6, contactDetails.getEmailTwo());
+			preparedStatement.setString(7, contactDetails.getContactType());
+			preparedStatement.setString(8, contactDetails.getContactStatus());
+
 			return preparedStatement;
 		}, keyHolder);
 
@@ -62,8 +67,10 @@ public class ContactDetailsDAO implements ContactDetailsDAOInterface {
 	@Override
 	public ContactDetails updateContactDetails(ContactDetails contactDetails) {
 		logger.info(contactDetails.toString());
-		Object[] args = { contactDetails.getFirstName(), contactDetails.getLastName(), contactDetails.getEmail(),
-				contactDetails.getContactNumber(), contactDetails.getContactId() };
+		Object[] args = { contactDetails.getFirstName(), contactDetails.getLastName(),
+				contactDetails.getContactNumberOne(), contactDetails.getContactNumberTwo(),
+				contactDetails.getEmailOne(), contactDetails.getEmailTwo(), contactDetails.getContactType(),
+				contactDetails.getContactStatus(), contactDetails.getContactId() };
 		count = jdbcTemplate.update(updateContactDetails, args);
 		if (count > 0) {
 			logger.info("Contact Details Updated Successfully");
@@ -87,7 +94,7 @@ public class ContactDetailsDAO implements ContactDetailsDAOInterface {
 		} catch (Exception e) {
 			logger.error("Exception :: " + e.getMessage());
 		}
-		return null;
+		return new ContactDetails();
 	}
 
 	@Override
