@@ -1,0 +1,511 @@
+2022-02-26 10:42:01,033 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-02-26 10:42:01,034 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-02-26 10:42:01,389 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-02-26 10:42:01,392 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-02-26 10:42:02,067 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.12 on LAPTOP-6A9V4K7J with PID 14060 (C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan\target\classes started by bornt in C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan)
+2022-02-26 10:42:02,112 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-26 10:42:02,084 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.12 on LAPTOP-6A9V4K7J with PID 22140 (C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan\target\classes started by bornt in C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan)
+2022-02-26 10:42:02,132 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-26 10:42:05,116 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-02-26 10:42:05,122 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-02-26 10:42:05,125 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-02-26 10:42:05,131 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-02-26 10:42:07,737 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 6.332 seconds (JVM running for 7.21)
+2022-02-26 10:42:07,747 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-02-26 10:42:08,074 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-02-26 10:45:40,454 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-1] Retriving all contact details
+2022-02-26 10:45:40,456 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-1] ContactDetailsService getAllContactDetails
+2022-02-26 10:45:40,499 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper object created
+2022-02-26 10:45:40,570 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=6, firstName=Test, lastName=Test, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=1, firstName=Trupti, lastName=Acharekar, email=truptiga@gmail.com, contactNumber=9920728158]
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=2, firstName=Vivek, lastName=Gohil, email=vivekgohil@technicalprashikshan.com, contactNumber=9920728158]
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
+2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=5, firstName=Vivek, lastName=Gohil, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-02-26 10:46:04,734 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-2] 3
+2022-02-26 10:46:04,735 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-2] ContactDetailsService getContactDetailsByContactId
+2022-02-26 10:46:04,735 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper object created
+2022-02-26 10:46:04,759 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:04,759 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
+2022-02-26 10:46:08,137 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-3] Retriving all contact details
+2022-02-26 10:46:08,137 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-3] ContactDetailsService getAllContactDetails
+2022-02-26 10:46:08,138 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper object created
+2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
+2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=6, firstName=Test, lastName=Test, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=1, firstName=Trupti, lastName=Acharekar, email=truptiga@gmail.com, contactNumber=9920728158]
+2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=2, firstName=Vivek, lastName=Gohil, email=vivekgohil@technicalprashikshan.com, contactNumber=9920728158]
+2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=5, firstName=Vivek, lastName=Gohil, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-02-26 10:46:13,393 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-4] 3
+2022-02-26 10:46:13,394 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-4] ContactDetailsService getContactDetailsByContactId
+2022-02-26 10:46:13,394 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-4] ContactDetailsRowMapper object created
+2022-02-26 10:46:13,397 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-4] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:13,398 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-4] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
+2022-02-26 10:46:18,985 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-6] ContactDetails [contactId=3, firstName=Vivek, lastName=Gohil, email=bahubali@gmail.com, contactNumber=09920728158]
+2022-02-26 10:46:18,985 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-6] ContactDetailsService updateContactDetails
+2022-02-26 10:46:18,986 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-6] ContactDetails [contactId=3, firstName=Vivek, lastName=Gohil, email=bahubali@gmail.com, contactNumber=09920728158]
+2022-02-26 10:46:18,995 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-6] Contact Details Updated Successfully
+2022-02-26 10:46:24,452 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-7] Retriving all contact details
+2022-02-26 10:46:24,454 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-7] ContactDetailsService getAllContactDetails
+2022-02-26 10:46:24,454 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper object created
+2022-02-26 10:46:24,458 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=6, firstName=Test, lastName=Test, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=1, firstName=Trupti, lastName=Acharekar, email=truptiga@gmail.com, contactNumber=9920728158]
+2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=2, firstName=Vivek, lastName=Gohil, email=vivekgohil@technicalprashikshan.com, contactNumber=9920728158]
+2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=3, firstName=Vivek, lastName=Gohil, email=bahubali@gmail.com, contactNumber=09920728158]
+2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
+2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=5, firstName=Vivek, lastName=Gohil, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-03-03 23:49:08,115 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-03 23:49:08,269 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:49:08,719 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:49:08,720 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:49:10,018 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:49:10,020 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:49:10,898 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 2.616 seconds (JVM running for 3.108)
+2022-03-03 23:49:10,902 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-03 23:55:14,014 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:55:14,044 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:55:14,044 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:55:14,373 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:55:14,374 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:55:14,402 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsController': Unsatisfied dependency expressed through field 'contactDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 50 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at com.technicalprashikshan.main.dao.ContactDetailsDAO.<init>(ContactDetailsDAO.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 52 common frames omitted
+2022-03-03 23:55:15,841 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:55:15,877 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:55:15,877 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:55:16,121 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:55:16,122 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:55:16,129 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsController': Unsatisfied dependency expressed through field 'contactDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 50 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at com.technicalprashikshan.main.dao.ContactDetailsDAO.<init>(ContactDetailsDAO.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 52 common frames omitted
+2022-03-03 23:57:34,334 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:57:34,369 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:57:34,369 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:57:34,559 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:57:34,560 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:57:34,568 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsController': Unsatisfied dependency expressed through field 'contactDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 50 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at com.technicalprashikshan.main.dao.ContactDetailsDAO.<init>(ContactDetailsDAO.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 52 common frames omitted
+2022-03-03 23:57:40,082 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:57:40,115 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:57:40,115 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:57:40,340 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:57:40,341 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:57:40,350 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsController': Unsatisfied dependency expressed through field 'contactDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'contactDetailsService': Unsatisfied dependency expressed through field 'contactDetailsDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'contactDetailsDAO' defined in file [C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\ContactDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.ContactDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 50 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+	The method getEmail() is undefined for the type ContactDetails
+	The method getContactNumber() is undefined for the type ContactDetails
+
+	at com.technicalprashikshan.main.dao.ContactDetailsDAO.<init>(ContactDetailsDAO.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 52 common frames omitted
+2022-03-03 23:58:44,020 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:58:44,046 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:58:44,047 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:58:44,203 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:58:44,204 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:58:44,340 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.315 seconds (JVM running for 576.55)
+2022-03-03 23:58:44,342 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-03 23:59:54,421 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-03 23:59:54,443 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-03 23:59:54,443 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-03 23:59:54,636 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-03 23:59:54,637 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-03 23:59:54,748 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.325 seconds (JVM running for 646.958)
+2022-03-03 23:59:54,749 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully

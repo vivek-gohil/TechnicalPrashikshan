@@ -1,81 +1,86 @@
-2022-02-26 10:42:01,033 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
-2022-02-26 10:42:01,034 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
-2022-02-26 10:42:01,389 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
-2022-02-26 10:42:01,392 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
-2022-02-26 10:42:02,067 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.12 on LAPTOP-6A9V4K7J with PID 14060 (C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan\target\classes started by bornt in C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan)
-2022-02-26 10:42:02,112 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
-2022-02-26 10:42:02,084 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.12 on LAPTOP-6A9V4K7J with PID 22140 (C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan\target\classes started by bornt in C:\Code\TechnicalPrashikshan\SpringBoot\TechnicalPrashikshan)
-2022-02-26 10:42:02,132 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
-2022-02-26 10:42:05,116 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
-2022-02-26 10:42:05,122 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
-2022-02-26 10:42:05,125 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
-2022-02-26 10:42:05,131 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
-2022-02-26 10:42:07,737 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 6.332 seconds (JVM running for 7.21)
-2022-02-26 10:42:07,747 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
-2022-02-26 10:42:08,074 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-02-26 10:45:40,454 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-1] Retriving all contact details
-2022-02-26 10:45:40,456 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-1] ContactDetailsService getAllContactDetails
-2022-02-26 10:45:40,499 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper object created
-2022-02-26 10:45:40,570 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=6, firstName=Test, lastName=Test, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=1, firstName=Trupti, lastName=Acharekar, email=truptiga@gmail.com, contactNumber=9920728158]
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=2, firstName=Vivek, lastName=Gohil, email=vivekgohil@technicalprashikshan.com, contactNumber=9920728158]
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetailsRowMapper mapRow
-2022-02-26 10:45:40,572 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-1] ContactDetails [contactId=5, firstName=Vivek, lastName=Gohil, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
-2022-02-26 10:46:04,734 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-2] 3
-2022-02-26 10:46:04,735 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-2] ContactDetailsService getContactDetailsByContactId
-2022-02-26 10:46:04,735 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper object created
-2022-02-26 10:46:04,759 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:04,759 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
-2022-02-26 10:46:08,137 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-3] Retriving all contact details
-2022-02-26 10:46:08,137 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-3] ContactDetailsService getAllContactDetails
-2022-02-26 10:46:08,138 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper object created
-2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
-2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:08,140 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=6, firstName=Test, lastName=Test, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
-2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=1, firstName=Trupti, lastName=Acharekar, email=truptiga@gmail.com, contactNumber=9920728158]
-2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=2, firstName=Vivek, lastName=Gohil, email=vivekgohil@technicalprashikshan.com, contactNumber=9920728158]
-2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:08,141 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=5, firstName=Vivek, lastName=Gohil, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
-2022-02-26 10:46:13,393 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-4] 3
-2022-02-26 10:46:13,394 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-4] ContactDetailsService getContactDetailsByContactId
-2022-02-26 10:46:13,394 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-4] ContactDetailsRowMapper object created
-2022-02-26 10:46:13,397 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-4] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:13,398 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-4] ContactDetails [contactId=3, firstName=Bahubali, lastName=Gohil, email=bahubali@gmail.com, contactNumber=9920728158]
-2022-02-26 10:46:18,985 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-6] ContactDetails [contactId=3, firstName=Vivek, lastName=Gohil, email=bahubali@gmail.com, contactNumber=09920728158]
-2022-02-26 10:46:18,985 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-6] ContactDetailsService updateContactDetails
-2022-02-26 10:46:18,986 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-6] ContactDetails [contactId=3, firstName=Vivek, lastName=Gohil, email=bahubali@gmail.com, contactNumber=09920728158]
-2022-02-26 10:46:18,995 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-6] Contact Details Updated Successfully
-2022-02-26 10:46:24,452 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-7] Retriving all contact details
-2022-02-26 10:46:24,454 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-7] ContactDetailsService getAllContactDetails
-2022-02-26 10:46:24,454 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper object created
-2022-02-26 10:46:24,458 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=6, firstName=Test, lastName=Test, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
-2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=1, firstName=Trupti, lastName=Acharekar, email=truptiga@gmail.com, contactNumber=9920728158]
-2022-02-26 10:46:24,459 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=2, firstName=Vivek, lastName=Gohil, email=vivekgohil@technicalprashikshan.com, contactNumber=9920728158]
-2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=3, firstName=Vivek, lastName=Gohil, email=bahubali@gmail.com, contactNumber=09920728158]
-2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetailsRowMapper mapRow
-2022-02-26 10:46:24,460 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-7] ContactDetails [contactId=5, firstName=Vivek, lastName=Gohil, email=ghl_vivek@hotmail.com, contactNumber=09920728158]
+2022-03-04 00:02:03,778 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-04 00:02:03,801 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-04 00:02:03,801 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-04 00:02:03,980 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-04 00:02:03,981 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-04 00:02:04,081 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.299 seconds (JVM running for 776.292)
+2022-03-04 00:02:04,083 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-04 00:02:05,645 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-04 00:02:05,662 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-04 00:02:05,662 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-04 00:02:05,824 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-04 00:02:05,825 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-04 00:02:05,911 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.263 seconds (JVM running for 778.121)
+2022-03-04 00:02:05,912 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-04 00:03:46,394 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-04 00:03:46,411 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-04 00:03:46,411 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-04 00:03:46,577 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-04 00:03:46,578 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-04 00:03:46,684 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.288 seconds (JVM running for 878.895)
+2022-03-04 00:03:46,685 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-04 00:03:48,266 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-04 00:03:48,283 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-04 00:03:48,283 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-04 00:03:48,439 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-04 00:03:48,440 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-04 00:03:48,519 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.25 seconds (JVM running for 880.73)
+2022-03-04 00:03:48,520 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-04 00:04:29,618 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-2] Retriving all contact details
+2022-03-04 00:04:29,620 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-2] ContactDetailsService getAllContactDetails
+2022-03-04 00:04:29,630 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper object created
+2022-03-04 00:04:29,662 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=4, firstName=Amruta, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=amruta.patil@gmail.com, emailTwo=null, contactType=trainer contact, contactStatus=active]
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=3, firstName=Ranjeet, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=ranjeet.patil@gmail.com, emailTwo=null, contactType=vendor contact, contactStatus=active]
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:29,663 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=2, firstName=Samarth, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=samarth.patil@gmail.com, emailTwo=null, contactType=vendor contact, contactStatus=active]
+2022-03-04 00:04:29,664 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:29,664 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=8, firstName=Test, lastName=Test, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=test@gmail.com, emailTwo=null, contactType=test, contactStatus=test]
+2022-03-04 00:04:29,664 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:29,664 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=6, firstName=Trupti, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=trupti.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-04 00:04:54,474 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-3] Retriving all contact details
+2022-03-04 00:04:54,475 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-3] ContactDetailsService getAllContactDetails
+2022-03-04 00:04:54,475 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper object created
+2022-03-04 00:04:54,478 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=4, firstName=Amruta, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=amruta.patil@gmail.com, emailTwo=null, contactType=trainer contact, contactStatus=active]
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=3, firstName=Ranjeet, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=ranjeet.patil@gmail.com, emailTwo=null, contactType=vendor contact, contactStatus=active]
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=2, firstName=Samarth, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=samarth.patil@gmail.com, emailTwo=null, contactType=vendor contact, contactStatus=active]
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=8, firstName=Test, lastName=Test, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=test@gmail.com, emailTwo=null, contactType=test, contactStatus=test]
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-04 00:04:54,479 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=6, firstName=Trupti, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=trupti.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-04 00:04:56,878 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-4] ContactDetails [contactId=0, firstName=Test, lastName=Test, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=test@gmail.com, emailTwo=null, contactType=test, contactStatus=test]
+2022-03-04 00:04:56,879 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-4] ContactDetailsService addNewContactDetails
+2022-03-04 00:04:56,879 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-4] ContactDetails [contactId=0, firstName=Test, lastName=Test, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=test@gmail.com, emailTwo=null, contactType=test, contactStatus=test]
+2022-03-04 00:04:56,896 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-4] Generated ContactId :: 9
+2022-03-04 00:05:09,955 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-5] ContactDetails [contactId=9, firstName=Test update, lastName=Test update, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=testupdate@gmail.com, emailTwo=null, contactType=test update, contactStatus=test update]
+2022-03-04 00:05:09,955 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-5] ContactDetailsService updateContactDetails
+2022-03-04 00:05:09,956 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-5] ContactDetails [contactId=9, firstName=Test update, lastName=Test update, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=testupdate@gmail.com, emailTwo=null, contactType=test update, contactStatus=test update]
+2022-03-04 00:05:09,981 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-5] Contact Details Updated Successfully
+2022-03-04 00:05:15,572 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-6] 7
+2022-03-04 00:05:15,572 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-6] ContactDetailsService deleteContactDetailsByContactId
+2022-03-04 00:05:15,572 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-6] 7
+2022-03-04 00:05:15,573 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-6] Failed To Delete Contact Details
+2022-03-04 00:05:22,644 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-7] 9
+2022-03-04 00:05:22,645 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-7] ContactDetailsService deleteContactDetailsByContactId
+2022-03-04 00:05:22,645 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-7] 9
+2022-03-04 00:05:22,651 INFO com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-7] Contact Details Deleted Successfully
+2022-03-04 00:05:29,962 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-8] 1
+2022-03-04 00:05:29,962 INFO com.technicalprashikshan.main.service.ContactDetailsService [http-nio-8080-exec-8] ContactDetailsService getContactDetailsByContactId
+2022-03-04 00:05:29,963 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-8] ContactDetailsRowMapper object created
+2022-03-04 00:05:29,968 ERROR com.technicalprashikshan.main.dao.ContactDetailsDAO [http-nio-8080-exec-8] Exception :: Incorrect result size: expected 1, actual 0
+2022-03-04 00:05:56,732 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-04 00:05:56,749 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 49648 (C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Users\bornt\git\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-04 00:05:56,749 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-04 00:05:56,909 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-04 00:05:56,910 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-04 00:05:57,000 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.264 seconds (JVM running for 1009.209)
+2022-03-04 00:05:57,000 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-04 00:05:59,555 INFO com.technicalprashikshan.main.controller.ContactDetailsController [http-nio-8080-exec-2] 1
