@@ -29,8 +29,9 @@ public class ClientDetailsRowMapper implements RowMapper<ClientDetails> {
 
 		clientDetails.setClientId(resultSet.getInt("client_id"));
 		clientDetails.setCompanyName(resultSet.getString("company_name"));
-		clientDetails.setAddressLine1(resultSet.getString("address_line_1"));
-		clientDetails.setAddressLine2(resultSet.getString("address_line_2"));
+		clientDetails.setAddressLineOne(resultSet.getString("address_line_1"));
+		clientDetails.setAddressLineTwo(resultSet.getString("address_line_2"));
+		clientDetails.setLandmark(resultSet.getString("landmark"));
 		clientDetails.setCity(resultSet.getString("city"));
 		clientDetails.setState(resultSet.getString("state"));
 		clientDetails.setPin(resultSet.getString("pin"));

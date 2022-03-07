@@ -3,8 +3,8 @@ package com.technicalprashikshan.main.pojo;
 public class ClientDetails {
 	private int clientId;
 	private String companyName;
-	private String addressLine1;
-	private String addressLine2;
+	private String addressLineOne;
+	private String addressLineTwo;
 	private String landmark;
 	private String city;
 	private String state;
@@ -16,13 +16,14 @@ public class ClientDetails {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ClientDetails(int clientId, String companyName, String addressLine1, String addressLine2, String landmark,
-			String city, String state, String pin, String clientStatus, ContactDetails primaryContact) {
+	public ClientDetails(int clientId, String companyName, String addressLineOne, String addressLineTwo,
+			String landmark, String city, String state, String pin, String clientStatus,
+			ContactDetails primaryContact) {
 		super();
 		this.clientId = clientId;
 		this.companyName = companyName;
-		this.addressLine1 = addressLine1;
-		this.addressLine2 = addressLine2;
+		this.addressLineOne = addressLineOne;
+		this.addressLineTwo = addressLineTwo;
 		this.landmark = landmark;
 		this.city = city;
 		this.state = state;
@@ -47,20 +48,20 @@ public class ClientDetails {
 		this.companyName = companyName;
 	}
 
-	public String getAddressLine1() {
-		return addressLine1;
+	public String getAddressLineOne() {
+		return addressLineOne;
 	}
 
-	public void setAddressLine1(String addressLine1) {
-		this.addressLine1 = addressLine1;
+	public void setAddressLineOne(String addressLineOne) {
+		this.addressLineOne = addressLineOne;
 	}
 
-	public String getAddressLine2() {
-		return addressLine2;
+	public String getAddressLineTwo() {
+		return addressLineTwo;
 	}
 
-	public void setAddressLine2(String addressLine2) {
-		this.addressLine2 = addressLine2;
+	public void setAddressLineTwo(String addressLineTwo) {
+		this.addressLineTwo = addressLineTwo;
 	}
 
 	public String getLandmark() {
@@ -113,9 +114,10 @@ public class ClientDetails {
 
 	@Override
 	public String toString() {
-		return "ClientDetails [clientId=" + clientId + ", companyName=" + companyName + ", addressLine1=" + addressLine1
-				+ ", addressLine2=" + addressLine2 + ", landmark=" + landmark + ", city=" + city + ", state=" + state
-				+ ", pin=" + pin + ", clientStatus=" + clientStatus + ", primaryContact=" + primaryContact + "]";
+		return "ClientDetails [clientId=" + clientId + ", companyName=" + companyName + ", addressLineOne="
+				+ addressLineOne + ", addressLineTwo=" + addressLineTwo + ", landmark=" + landmark + ", city=" + city
+				+ ", state=" + state + ", pin=" + pin + ", clientStatus=" + clientStatus + ", primaryContact="
+				+ primaryContact + "]";
 	}
 
 }

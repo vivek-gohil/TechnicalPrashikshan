@@ -20,8 +20,8 @@ public class ClientDetailsDAO implements ClientDetailsDAOInterface {
 
 	private static final Logger logger = LoggerFactory.getLogger(ClientDetailsDAO.class);
 
-	private static final String insertNewClientDetails = "insert into client_master(company_name,address_line_1,address_line_2,city,state,pin,primary_contact_id) values(?,?,?,?,?,?,?)";
-	private static final String updateClientDetails = "update client_master set company_name = ? , address_line_1 = ? , address_line_2 = ? , city = ? ,state = ? , pin = ? , primary_contact_id = ? where client_id = ?";
+	private static final String insertNewClientDetails = "insert into client_master (company_name,address_line_1,address_line_2,landmark,city,state,pin,primary_contact_id,client_status) values(?,?,?,?,?,?,?,?,?)";
+	private static final String updateClientDetails = "update client_master set company_name = ? ,address_line_1 = ? ,address_line_2 = ? ,landmark = ? ,city = ? ,state = ? ,pin = ? ,primary_contact_id = ? ,client_status = ? where client_id = ?";
 	private static final String deleteClientDetails = "delete from client_master where client_id = ?";
 	private static final String selectClientByClientId = "select * from client_master where client_id = ?";
 	private static final String selectAllClientDetails = "select * from client_master order by company_name";
@@ -40,12 +40,14 @@ public class ClientDetailsDAO implements ClientDetailsDAOInterface {
 			PreparedStatement preparedStatement = connection.prepareStatement(insertNewClientDetails,
 					new String[] { "client_id" });
 			preparedStatement.setString(1, clientDetails.getCompanyName());
-			preparedStatement.setString(2, clientDetails.getAddressLine1());
-			preparedStatement.setString(3, clientDetails.getAddressLine2());
-			preparedStatement.setString(4, clientDetails.getCity());
-			preparedStatement.setString(5, clientDetails.getState());
-			preparedStatement.setString(6, clientDetails.getPin());
-			preparedStatement.setInt(7, clientDetails.getPrimaryContact().getContactId());
+			preparedStatement.setString(2, clientDetails.getAddressLineOne());
+			preparedStatement.setString(3, clientDetails.getAddressLineTwo());
+			preparedStatement.setString(4, clientDetails.getLandmark());
+			preparedStatement.setString(5, clientDetails.getCity());
+			preparedStatement.setString(6, clientDetails.getState());
+			preparedStatement.setString(7, clientDetails.getPin());
+			preparedStatement.setString(7, clientDetails.getClientStatus());
+			preparedStatement.setInt(8, clientDetails.getPrimaryContact().getContactId());
 			return preparedStatement;
 		}, keyHolder);
 
@@ -57,9 +59,10 @@ public class ClientDetailsDAO implements ClientDetailsDAOInterface {
 	@Override
 	public ClientDetails updateClientDetails(ClientDetails clientDetails) {
 		logger.info(clientDetails.toString());
-		Object[] args = { clientDetails.getCompanyName(), clientDetails.getAddressLine1(),
-				clientDetails.getAddressLine2(), clientDetails.getCity(), clientDetails.getState(),
-				clientDetails.getPin(), clientDetails.getPrimaryContact().getContactId(), clientDetails.getClientId() };
+		Object[] args = { clientDetails.getCompanyName(), clientDetails.getAddressLineOne(),
+				clientDetails.getAddressLineTwo(), clientDetails.getLandmark(), clientDetails.getCity(),
+				clientDetails.getState(), clientDetails.getPin(), clientDetails.getClientStatus(),
+				clientDetails.getPrimaryContact().getContactId(), clientDetails.getClientId() };
 		count = jdbcTemplate.update(updateClientDetails, args);
 		if (count > 0) {
 			logger.info("Client Details Updated Successfully");
