@@ -5,24 +5,29 @@ public class ClientDetails {
 	private String companyName;
 	private String addressLine1;
 	private String addressLine2;
+	private String landmark;
 	private String city;
 	private String state;
 	private String pin;
+	private String clientStatus;
 	private ContactDetails primaryContact;
 
 	public ClientDetails() {
+		// TODO Auto-generated constructor stub
 	}
 
-	public ClientDetails(int clientId, String companyName, String addressLine1, String addressLine2, String city,
-			String state, String pin, ContactDetails primaryContact) {
+	public ClientDetails(int clientId, String companyName, String addressLine1, String addressLine2, String landmark,
+			String city, String state, String pin, String clientStatus, ContactDetails primaryContact) {
 		super();
 		this.clientId = clientId;
 		this.companyName = companyName;
 		this.addressLine1 = addressLine1;
 		this.addressLine2 = addressLine2;
+		this.landmark = landmark;
 		this.city = city;
 		this.state = state;
 		this.pin = pin;
+		this.clientStatus = clientStatus;
 		this.primaryContact = primaryContact;
 	}
 
@@ -58,6 +63,14 @@ public class ClientDetails {
 		this.addressLine2 = addressLine2;
 	}
 
+	public String getLandmark() {
+		return landmark;
+	}
+
+	public void setLandmark(String landmark) {
+		this.landmark = landmark;
+	}
+
 	public String getCity() {
 		return city;
 	}
@@ -82,6 +95,14 @@ public class ClientDetails {
 		this.pin = pin;
 	}
 
+	public String getClientStatus() {
+		return clientStatus;
+	}
+
+	public void setClientStatus(String clientStatus) {
+		this.clientStatus = clientStatus;
+	}
+
 	public ContactDetails getPrimaryContact() {
 		return primaryContact;
 	}
@@ -93,8 +114,8 @@ public class ClientDetails {
 	@Override
 	public String toString() {
 		return "ClientDetails [clientId=" + clientId + ", companyName=" + companyName + ", addressLine1=" + addressLine1
-				+ ", addressLine2=" + addressLine2 + ", city=" + city + ", state=" + state + ", pin=" + pin
-				+ ", primaryContact=" + primaryContact + "]";
+				+ ", addressLine2=" + addressLine2 + ", landmark=" + landmark + ", city=" + city + ", state=" + state
+				+ ", pin=" + pin + ", clientStatus=" + clientStatus + ", primaryContact=" + primaryContact + "]";
 	}
 
 }
