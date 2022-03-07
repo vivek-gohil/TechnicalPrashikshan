@@ -35,6 +35,7 @@ public class ClientDetailsRowMapper implements RowMapper<ClientDetails> {
 		clientDetails.setCity(resultSet.getString("city"));
 		clientDetails.setState(resultSet.getString("state"));
 		clientDetails.setPin(resultSet.getString("pin"));
+		clientDetails.setClientStatus(resultSet.getString("client_status"));
 
 		ContactDetailsDAO contactDetailsDAO = new ContactDetailsDAO(jdbcTemplate);
 		ContactDetails contactDetails = contactDetailsDAO
