@@ -1798,3 +1798,1239 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 2022-03-08 14:40:35,627 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
 2022-03-08 14:40:35,681 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.225 seconds (JVM running for 6530.191)
 2022-03-08 14:40:35,682 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:43:59,002 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-08 21:43:59,265 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:43:59,675 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:43:59,676 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:44:01,304 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:44:01,383 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:44:01,384 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:44:01,392 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:44:01,401 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:44:02,329 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 3.05 seconds (JVM running for 3.707)
+2022-03-08 21:44:02,334 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:44:27,618 INFO com.technicalprashikshan.main.controller.UserDetailsController [http-nio-8080-exec-3] Retriving all client details
+2022-03-08 21:44:27,711 INFO com.technicalprashikshan.main.dao.rowmappers.UserDetailsRowMapper [http-nio-8080-exec-3] UserDetailsRowMapper mapRow
+2022-03-08 21:44:27,712 INFO com.technicalprashikshan.main.dao.rowmappers.UserDetailsRowMapper [http-nio-8080-exec-3] UserDetails [userId=1, password=Bahubali@01, role=Trainer]
+2022-03-08 21:44:27,712 INFO com.technicalprashikshan.main.dao.rowmappers.UserDetailsRowMapper [http-nio-8080-exec-3] UserDetailsRowMapper mapRow
+2022-03-08 21:44:27,712 INFO com.technicalprashikshan.main.dao.rowmappers.UserDetailsRowMapper [http-nio-8080-exec-3] UserDetails [userId=2, password=Bahubali@01, role=Admin]
+2022-03-08 21:47:25,654 INFO com.technicalprashikshan.main.controller.UserDetailsController [http-nio-8080-exec-7] UserDetails [userId=0, password=Bahubali@01, role=Test]
+2022-03-08 21:47:25,656 INFO com.technicalprashikshan.main.dao.UserDetailsDAO [http-nio-8080-exec-7] UserDetails [userId=0, password=Bahubali@01, role=Test]
+2022-03-08 21:47:25,695 INFO com.technicalprashikshan.main.dao.UserDetailsDAO [http-nio-8080-exec-7] Generated UserId :: 3
+2022-03-08 21:48:39,856 INFO com.technicalprashikshan.main.controller.UserDetailsController [http-nio-8080-exec-10] UserDetails [userId=3, password=UpdatedBahubali@01, role=Updated Test]
+2022-03-08 21:48:39,857 INFO com.technicalprashikshan.main.dao.UserDetailsDAO [http-nio-8080-exec-10] UserDetails [userId=3, password=UpdatedBahubali@01, role=Updated Test]
+2022-03-08 21:48:39,908 INFO com.technicalprashikshan.main.dao.UserDetailsDAO [http-nio-8080-exec-10] User Details Updated Successfully
+2022-03-08 21:49:43,501 INFO com.technicalprashikshan.main.controller.UserDetailsController [http-nio-8080-exec-3] 3
+2022-03-08 21:49:43,506 INFO com.technicalprashikshan.main.dao.rowmappers.UserDetailsRowMapper [http-nio-8080-exec-3] UserDetailsRowMapper mapRow
+2022-03-08 21:49:43,506 INFO com.technicalprashikshan.main.dao.rowmappers.UserDetailsRowMapper [http-nio-8080-exec-3] UserDetails [userId=3, password=UpdatedBahubali@01, role=Updated Test]
+2022-03-08 21:50:04,510 INFO com.technicalprashikshan.main.controller.UserDetailsController [http-nio-8080-exec-4] 3
+2022-03-08 21:50:04,511 INFO com.technicalprashikshan.main.dao.UserDetailsDAO [http-nio-8080-exec-4] 3
+2022-03-08 21:50:04,517 INFO com.technicalprashikshan.main.dao.UserDetailsDAO [http-nio-8080-exec-4] User Details Deleted Successfully
+2022-03-08 21:53:39,753 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:53:39,793 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:53:39,793 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:53:40,155 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:53:40,181 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:53:40,182 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:53:40,190 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:53:40,198 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:53:40,333 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.574 seconds (JVM running for 581.711)
+2022-03-08 21:53:40,335 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:55:46,189 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:55:46,216 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:55:46,216 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:55:46,455 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:55:46,473 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:55:46,474 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:55:46,480 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:55:46,487 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:55:46,594 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.401 seconds (JVM running for 707.972)
+2022-03-08 21:55:46,596 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:56:24,145 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:56:24,173 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:56:24,173 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:56:24,472 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:56:24,488 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:56:24,489 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:56:24,493 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:56:24,500 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:56:24,622 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.473 seconds (JVM running for 745.999)
+2022-03-08 21:56:24,623 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:56:28,268 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:56:28,295 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:56:28,295 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:56:28,537 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:56:28,556 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:56:28,557 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:56:28,563 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:56:28,568 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:56:28,656 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.384 seconds (JVM running for 750.034)
+2022-03-08 21:56:28,658 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:56:38,462 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:56:38,483 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:56:38,484 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:56:38,717 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:56:38,732 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:56:38,733 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:56:38,739 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:56:38,744 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:56:38,823 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.357 seconds (JVM running for 760.201)
+2022-03-08 21:56:38,825 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:57:09,136 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:57:09,160 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:57:09,160 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:57:09,432 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:57:09,452 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:57:09,453 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:57:09,459 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:57:09,465 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:57:09,550 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.411 seconds (JVM running for 790.929)
+2022-03-08 21:57:09,552 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 21:58:53,408 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:58:53,475 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:58:53,475 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:58:54,064 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:58:54,098 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:58:54,099 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:58:54,108 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:58:54,120 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:58:54,234 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 21:59:05,420 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:59:05,490 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:59:05,490 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:59:06,028 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:59:06,071 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:59:06,072 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:59:06,082 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:59:06,093 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:59:06,122 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 21:59:54,192 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-08 21:59:54,357 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 21:59:54,702 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 29872 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 21:59:54,702 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 21:59:56,179 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 21:59:56,255 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 21:59:56,256 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 21:59:56,263 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 21:59:56,270 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 21:59:56,320 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 22:00:58,853 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:00:58,914 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:00:58,915 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:00:59,425 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:00:59,465 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:00:59,466 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:00:59,478 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:00:59,489 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:00:59,520 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 22:01:08,219 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:01:08,258 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:01:08,258 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:01:08,462 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:01:08,472 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:01:08,473 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:01:08,476 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:01:08,480 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:01:08,490 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 22:01:09,961 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:01:09,994 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:01:09,994 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:01:10,183 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:01:10,205 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:01:10,206 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:01:10,209 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:01:10,214 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:01:10,224 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 22:01:26,065 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:01:26,106 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:01:26,106 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:01:26,303 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:01:26,315 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:01:26,316 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:01:26,320 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:01:26,323 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:01:26,334 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field fileDetailsDAO in com.technicalprashikshan.main.service.FilesDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.FileDetailsDAOInterface' in your configuration.
+
+2022-03-08 22:02:06,934 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:02:06,960 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:02:06,961 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:02:07,131 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:02:07,145 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:02:07,145 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:02:07,149 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:02:07,152 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:02:07,223 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.284 seconds (JVM running for 1088.602)
+2022-03-08 22:02:07,224 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:02:08,835 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:02:08,860 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:02:08,861 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:02:09,013 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:02:09,026 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:02:09,027 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:02:09,031 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:02:09,035 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:02:09,109 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.268 seconds (JVM running for 1090.487)
+2022-03-08 22:02:09,110 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:02:51,838 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:02:51,867 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:02:51,867 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:02:52,065 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:02:52,078 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:02:52,079 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:02:52,082 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:02:52,086 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:02:52,151 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.31 seconds (JVM running for 1133.529)
+2022-03-08 22:02:52,152 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:03:06,097 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:03:06,119 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:03:06,120 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:03:06,353 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:03:06,368 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:03:06,370 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:03:06,375 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:03:06,383 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:03:06,462 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.362 seconds (JVM running for 1147.84)
+2022-03-08 22:03:06,463 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:14:05,767 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:14:05,828 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:14:05,828 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:14:06,218 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:14:06,253 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:14:06,254 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:14:06,266 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:14:06,276 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:14:06,455 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.679 seconds (JVM running for 1807.833)
+2022-03-08 22:14:06,457 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:14:32,295 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:14:32,351 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56600 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:14:32,352 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:14:32,799 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:14:32,837 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:14:32,839 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:14:32,854 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:14:32,869 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:14:33,045 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.743 seconds (JVM running for 1834.423)
+2022-03-08 22:14:33,047 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:14:38,148 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-08 22:14:38,320 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:14:38,653 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 52952 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:14:38,654 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:14:40,098 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:14:40,180 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:14:40,182 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:14:40,189 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:14:40,199 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:14:40,972 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-03-08 22:15:57,696 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-08 22:15:57,878 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:15:58,226 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:15:58,226 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:15:59,647 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:15:59,728 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:15:59,730 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:15:59,740 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:15:59,749 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:16:00,545 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 2.657 seconds (JVM running for 3.205)
+2022-03-08 22:16:00,549 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:16:53,829 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:16:53,921 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:16:53,922 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:16:54,744 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:16:54,801 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:16:54,802 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:16:54,821 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:16:54,838 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:16:55,164 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 1.325 seconds (JVM running for 57.824)
+2022-03-08 22:16:55,175 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:18:41,809 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:18:41,902 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:18:41,902 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:18:42,582 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:18:42,629 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:18:42,631 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:18:42,646 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:18:42,658 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:18:42,924 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 1.103 seconds (JVM running for 165.584)
+2022-03-08 22:18:42,927 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:18:48,928 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:18:49,016 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:18:49,016 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:18:49,664 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:18:49,715 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:18:49,717 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:18:49,728 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:18:49,742 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:18:50,001 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 1.062 seconds (JVM running for 172.661)
+2022-03-08 22:18:50,003 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:18:51,817 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:18:51,898 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:18:51,899 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:18:52,532 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:18:52,570 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:18:52,572 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:18:52,584 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:18:52,597 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:18:52,848 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 1.023 seconds (JVM running for 175.508)
+2022-03-08 22:18:52,852 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:19:10,959 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:19:10,992 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:19:10,992 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:19:11,255 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:19:11,273 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:19:11,274 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:19:11,280 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:19:11,286 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:19:11,374 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.411 seconds (JVM running for 194.034)
+2022-03-08 22:19:11,375 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:19:22,175 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:19:22,205 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:19:22,205 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:19:22,440 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:19:22,453 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:19:22,453 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:19:22,459 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:19:22,464 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:19:22,559 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.38 seconds (JVM running for 205.218)
+2022-03-08 22:19:22,560 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:19:24,153 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:19:24,176 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:19:24,176 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:19:24,411 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:19:24,428 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:19:24,429 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:19:24,434 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:19:24,440 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:19:24,523 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.367 seconds (JVM running for 207.183)
+2022-03-08 22:19:24,525 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:23:09,321 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:23:09,391 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:23:09,392 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:23:09,971 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:23:10,010 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:23:10,012 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:23:10,023 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:23:10,036 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:23:10,246 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.916 seconds (JVM running for 432.905)
+2022-03-08 22:23:10,248 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:23:12,072 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:23:12,122 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:23:12,122 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:23:12,615 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:23:12,659 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:23:12,660 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:23:12,672 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:23:12,684 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:23:12,892 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.812 seconds (JVM running for 435.551)
+2022-03-08 22:23:12,894 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:23:31,326 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:23:31,387 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:23:31,388 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:23:31,939 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:23:31,972 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:23:31,974 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:23:31,985 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:23:31,997 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:23:32,214 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.881 seconds (JVM running for 454.874)
+2022-03-08 22:23:32,217 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:23:37,157 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:23:37,227 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:23:37,227 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:23:37,713 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:23:37,751 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:23:37,752 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:23:37,761 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:23:37,771 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:23:37,969 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.802 seconds (JVM running for 460.628)
+2022-03-08 22:23:37,970 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:23:46,109 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:23:46,161 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:23:46,161 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:23:46,660 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:23:46,694 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:23:46,696 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:23:46,707 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:23:46,718 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:23:46,934 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.816 seconds (JVM running for 469.594)
+2022-03-08 22:23:46,937 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:25:03,191 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:25:03,256 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:25:03,257 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:25:03,724 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:25:03,782 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:25:03,783 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:25:03,793 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:25:03,805 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:25:04,020 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.819 seconds (JVM running for 546.68)
+2022-03-08 22:25:04,022 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:25:05,867 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:25:05,957 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:25:05,957 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:25:06,495 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:25:06,531 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:25:06,532 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:25:06,540 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:25:06,550 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:25:06,667 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileDetailsDAO' defined in file [C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\FileDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.FileDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	insertNewClientDetails cannot be resolved to a variable
+	clientDetails cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.FileDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	insertNewClientDetails cannot be resolved to a variable
+	clientDetails cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	insertNewClientDetails cannot be resolved to a variable
+	clientDetails cannot be resolved
+
+	at com.technicalprashikshan.main.dao.FileDetailsDAO.<init>(FileDetailsDAO.java:38)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+2022-03-08 22:25:08,148 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:25:08,213 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:25:08,214 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:25:08,721 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:25:08,758 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:25:08,760 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:25:08,769 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:25:08,786 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:25:08,810 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileDetailsDAO' defined in file [C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\FileDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.FileDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	insertNewClientDetails cannot be resolved to a variable
+	clientDetails cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.FileDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	insertNewClientDetails cannot be resolved to a variable
+	clientDetails cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	insertNewClientDetails cannot be resolved to a variable
+	clientDetails cannot be resolved
+
+	at com.technicalprashikshan.main.dao.FileDetailsDAO.<init>(FileDetailsDAO.java:38)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+2022-03-08 22:25:31,978 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:25:32,006 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:25:32,006 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:25:32,180 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:25:32,200 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:25:32,201 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:25:32,206 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:25:32,210 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:25:32,218 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileDetailsDAO' defined in file [C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\dao\FileDetailsDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.FileDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	insertNewClientDetails cannot be resolved to a variable
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.dao.FileDetailsDAO]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	insertNewClientDetails cannot be resolved to a variable
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	insertNewClientDetails cannot be resolved to a variable
+
+	at com.technicalprashikshan.main.dao.FileDetailsDAO.<init>(FileDetailsDAO.java:38)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+2022-03-08 22:25:43,960 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:25:43,992 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:25:43,992 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:25:44,160 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:25:44,174 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:25:44,175 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:25:44,178 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:25:44,181 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:25:44,245 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.278 seconds (JVM running for 586.905)
+2022-03-08 22:25:44,246 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:28:15,940 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:28:16,003 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:28:16,004 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:28:16,481 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:28:16,514 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:28:16,516 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:28:16,523 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:28:16,533 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:28:16,785 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.838 seconds (JVM running for 739.445)
+2022-03-08 22:28:16,788 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:29:09,419 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:29:09,483 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:29:09,483 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:29:10,005 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:29:10,044 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:29:10,046 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:29:10,056 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:29:10,067 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:29:10,278 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.851 seconds (JVM running for 792.938)
+2022-03-08 22:29:10,281 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:29:12,105 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:29:12,174 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:29:12,174 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:29:12,619 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:29:12,644 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:29:12,645 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:29:12,652 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:29:12,660 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:29:12,832 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.699 seconds (JVM running for 795.492)
+2022-03-08 22:29:12,835 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:29:22,990 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:29:23,047 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:29:23,048 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:29:23,492 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:29:23,531 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:29:23,532 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:29:23,542 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:29:23,550 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:29:23,725 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.727 seconds (JVM running for 806.385)
+2022-03-08 22:29:23,728 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:30:05,186 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:30:05,237 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:30:05,238 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:30:05,659 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:30:05,685 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:30:05,686 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:30:05,692 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:30:05,699 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:30:05,879 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.687 seconds (JVM running for 848.539)
+2022-03-08 22:30:05,881 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:32:00,154 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:32:00,203 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:32:00,203 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:32:00,616 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:32:00,648 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:32:00,649 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:32:00,656 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:32:00,666 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:32:00,832 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.671 seconds (JVM running for 963.491)
+2022-03-08 22:32:00,834 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:32:36,437 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:32:36,494 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:32:36,494 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:32:36,922 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:32:36,958 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:32:36,960 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:32:36,967 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:32:36,975 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:32:37,149 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.703 seconds (JVM running for 999.808)
+2022-03-08 22:32:37,150 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:33:08,901 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:33:08,961 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:33:08,962 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:33:09,425 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:33:09,463 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:33:09,464 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:33:09,474 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:33:09,484 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:33:09,673 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.763 seconds (JVM running for 1032.333)
+2022-03-08 22:33:09,675 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:33:11,509 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:33:11,563 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:33:11,563 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:33:11,980 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:33:12,009 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:33:12,010 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:33:12,018 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:33:12,027 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:33:12,196 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.681 seconds (JVM running for 1034.856)
+2022-03-08 22:33:12,199 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:33:15,075 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:33:15,132 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:33:15,133 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:33:15,567 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:33:15,606 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:33:15,608 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:33:15,616 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:33:15,626 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:33:15,801 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.718 seconds (JVM running for 1038.46)
+2022-03-08 22:33:15,803 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:33:58,315 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:33:58,368 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:33:58,369 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:33:58,741 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:33:58,776 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:33:58,777 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:33:58,787 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:33:58,796 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:33:58,959 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.639 seconds (JVM running for 1081.619)
+2022-03-08 22:33:58,961 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:43:03,612 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:43:03,657 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:43:03,658 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:43:04,037 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:43:04,063 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:43:04,064 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:43:04,073 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:43:04,083 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:43:04,243 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.624 seconds (JVM running for 1626.903)
+2022-03-08 22:43:04,245 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:43:55,238 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:43:55,254 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:43:55,255 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:43:55,440 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:43:55,450 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:43:55,451 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:43:55,454 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:43:55,460 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:43:55,550 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.31 seconds (JVM running for 1678.21)
+2022-03-08 22:43:55,551 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:44:31,148 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:44:31,164 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:44:31,164 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:44:31,304 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:44:31,316 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:44:31,317 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:44:31,325 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filesDetailsController' defined in file [C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\controller\FilesDetailsController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.controller.FilesDetailsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Autowired cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.technicalprashikshan.main.controller.FilesDetailsController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Autowired cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Logger cannot be resolved to a type
+	LoggerFactory cannot be resolved
+	Autowired cannot be resolved to a type
+
+	at com.technicalprashikshan.main.controller.FilesDetailsController.<init>(FilesDetailsController.java:13)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+2022-03-08 22:44:34,837 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:44:34,865 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:44:34,866 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:44:35,020 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:44:35,038 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:44:35,039 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:44:35,047 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:44:35,051 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:44:35,124 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.278 seconds (JVM running for 1717.784)
+2022-03-08 22:44:35,126 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:44:45,978 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:44:45,995 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:44:45,995 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:44:46,175 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:44:46,191 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:44:46,192 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:44:46,199 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:44:46,204 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:44:46,276 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.294 seconds (JVM running for 1728.935)
+2022-03-08 22:44:46,277 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:44:47,862 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:44:47,876 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:44:47,877 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:44:48,081 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:44:48,095 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:44:48,095 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:44:48,100 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:44:48,103 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:44:48,158 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.293 seconds (JVM running for 1730.817)
+2022-03-08 22:44:48,159 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:45:08,265 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:45:08,286 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:45:08,286 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:45:08,455 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:45:08,468 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:45:08,468 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:45:08,471 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:45:08,474 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:45:08,477 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:45:08,547 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.278 seconds (JVM running for 1751.206)
+2022-03-08 22:45:08,548 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:45:48,225 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:45:48,243 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:45:48,244 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:45:48,250 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes\com\technicalprashikshan\main\controller\FilesDetailsController.class]; nested exception is java.lang.IllegalArgumentException
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:457)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: null
+	at org.springframework.asm.ClassReader.readElementValue(ClassReader.java:3189)
+	at org.springframework.asm.ClassReader.readElementValues(ClassReader.java:3000)
+	at org.springframework.asm.ClassReader.readMethod(ClassReader.java:1415)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:746)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:426)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:429)
+	... 25 common frames omitted
+2022-03-08 22:45:50,728 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:45:50,754 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:45:50,754 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:45:50,943 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:45:50,952 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:45:50,952 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:45:50,955 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:45:50,959 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:45:50,962 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:45:51,033 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.296 seconds (JVM running for 1793.692)
+2022-03-08 22:45:51,034 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:46:02,904 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:46:02,920 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:46:02,920 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:46:03,097 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:46:03,110 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:46:03,111 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:46:03,114 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:46:03,117 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:46:03,120 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:46:03,190 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.283 seconds (JVM running for 1805.849)
+2022-03-08 22:46:03,191 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:46:37,159 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:46:37,221 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:46:37,221 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:46:37,633 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:46:37,660 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:46:37,661 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:46:37,667 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:46:37,674 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:46:37,682 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:46:37,859 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.69 seconds (JVM running for 1840.519)
+2022-03-08 22:46:37,861 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:46:41,849 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:46:41,906 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:46:41,906 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:46:42,400 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:46:42,431 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:46:42,432 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:46:42,438 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:46:42,444 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:46:42,450 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:46:42,636 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.778 seconds (JVM running for 1845.295)
+2022-03-08 22:46:42,638 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:46:44,573 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:46:44,637 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:46:44,638 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:46:45,128 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:46:45,164 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:46:45,165 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:46:45,175 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:46:45,186 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:46:45,194 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:46:45,360 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.779 seconds (JVM running for 1848.02)
+2022-03-08 22:46:45,363 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:47:52,989 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:47:53,037 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:47:53,038 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:47:53,477 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:47:53,507 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:47:53,508 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:47:53,516 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:47:53,522 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:47:53,529 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:47:53,690 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.694 seconds (JVM running for 1916.35)
+2022-03-08 22:47:53,692 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:48:33,863 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:48:33,924 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:48:33,925 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:48:34,356 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:48:34,388 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:48:34,389 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:48:34,397 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:48:34,407 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:48:34,417 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:48:34,590 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.719 seconds (JVM running for 1957.25)
+2022-03-08 22:48:34,593 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:48:36,423 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:48:36,474 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:48:36,475 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:48:36,906 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:48:36,941 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:48:36,942 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:48:36,951 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:48:36,961 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:48:36,969 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:48:37,159 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.727 seconds (JVM running for 1959.818)
+2022-03-08 22:48:37,160 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:49:02,926 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:49:02,942 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:49:02,942 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:49:03,128 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:49:03,136 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:49:03,137 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:49:03,144 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filesDetailsController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.technicalprashikshan.main.controller.FilesDetailsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@61cc6f55]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.technicalprashikshan.main.controller.FilesDetailsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@61cc6f55]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ClientDetails
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ClientDetails
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2022-03-08 22:49:08,701 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:49:08,728 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:49:08,729 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:49:08,876 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:49:08,898 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:49:08,898 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:49:08,905 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filesDetailsController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.technicalprashikshan.main.controller.FilesDetailsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@295d5ff0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.technicalprashikshan.main.controller.FilesDetailsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@295d5ff0]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ClientDetails
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ClientDetails
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2022-03-08 22:50:08,953 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:50:08,983 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:50:08,983 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:50:09,156 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:50:09,172 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:50:09,173 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:50:09,180 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filesDetailsController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.technicalprashikshan.main.controller.FilesDetailsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@19f44946]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.technicalprashikshan.main.TechnicalPrashikshanApplication.main(TechnicalPrashikshanApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.technicalprashikshan.main.controller.FilesDetailsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@19f44946]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ClientDetails
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ClientDetails
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2022-03-08 22:50:16,815 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:50:16,840 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:50:16,840 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:50:17,036 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:50:17,047 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:50:17,047 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:50:17,051 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:50:17,055 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:50:17,061 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:50:17,139 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.318 seconds (JVM running for 2059.799)
+2022-03-08 22:50:17,140 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:50:29,018 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:50:29,035 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:50:29,036 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:50:29,230 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:50:29,242 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:50:29,243 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:50:29,245 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:50:29,250 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:50:29,254 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:50:29,326 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.305 seconds (JVM running for 2071.986)
+2022-03-08 22:50:29,327 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:50:51,469 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:50:51,484 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:50:51,484 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:50:51,677 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:50:51,687 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:50:51,687 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:50:51,690 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:50:51,692 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:50:51,699 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:50:51,769 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.297 seconds (JVM running for 2094.429)
+2022-03-08 22:50:51,770 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:50:53,382 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:50:53,398 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:50:53,399 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:50:53,576 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:50:53,593 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:50:53,596 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:50:53,601 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:50:53,605 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:50:53,608 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:50:53,682 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.297 seconds (JVM running for 2096.342)
+2022-03-08 22:50:53,683 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:51:02,457 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 22:51:02,474 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 50216 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 22:51:02,474 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 22:51:02,625 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 22:51:02,638 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 22:51:02,638 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 22:51:02,643 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-08 22:51:02,646 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-08 22:51:02,649 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 22:51:02,706 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.246 seconds (JVM running for 2105.366)
+2022-03-08 22:51:02,707 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 22:52:02,786 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
