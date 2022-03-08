@@ -20,10 +20,10 @@ public class FileDetailsDAO implements FileDetailsDAOInterface {
 
 	private static final Logger logger = LoggerFactory.getLogger(FileDetailsDAO.class);
 
-	private static final String insertNewFileDetails = "insert into files_master(file_content_type,file_name,content_file) values values(?,?,?)";
-	private static final String updateFileDetails = "update files_master file_content_type = ? ,file_name = ? ,content_file = ? where file_id = ?";
-	private static final String deleteFileDetails = "delete from files_master where file_id = ?";
-	private static final String selectFileByFileId = "select * from files_master where file_id = ?";
+	private static final String insertNewFileDetails = "insert into files_master(file_content_type,file_name,content_file) values(?,?,?)";
+	private static final String updateFileDetails = "update files_master file_content_type = ? ,file_name = ? ,content_file = ? where files_id = ?";
+	private static final String deleteFileDetails = "delete from files_master where files_id = ?";
+	private static final String selectFileByFileId = "select * from files_master where files_id = ?";
 	private static final String selectAllFileDetails = "select * from files_master order by file_name";
 
 	private int count;
@@ -33,11 +33,12 @@ public class FileDetailsDAO implements FileDetailsDAOInterface {
 
 	@Override
 	public int addNewFileDetails(FilesDetails filesDetails) {
-		logger.info(filesDetails.toString());
+		logger.info("in addNewFileDetails");
+
 		KeyHolder keyHolder = new GeneratedKeyHolder();
 		jdbcTemplate.update(connection -> {
 			PreparedStatement preparedStatement = connection.prepareStatement(insertNewFileDetails,
-					new String[] { "file_id" });
+					new String[] { "files_id" });
 			preparedStatement.setString(1, filesDetails.getFileContentType());
 			preparedStatement.setString(2, filesDetails.getFileName());
 			preparedStatement.setBytes(3, filesDetails.getFileContent());

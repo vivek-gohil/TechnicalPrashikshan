@@ -18,7 +18,7 @@ public class FilesDetailsRowMapper implements RowMapper<FilesDetails> {
 		logger.info("FilesDetailsRowMapper mapRow");
 
 		FilesDetails filesDetails = new FilesDetails();
-		filesDetails.setFileId(resultSet.getInt("file_id"));
+		filesDetails.setFileId(resultSet.getInt("files_id"));
 		filesDetails.setFileContentType(resultSet.getString("file_content_type"));
 		filesDetails.setFileName(resultSet.getString("file_name"));
 		filesDetails.setFileContent(resultSet.getBytes("content_file"));
