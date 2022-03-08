@@ -58,9 +58,10 @@ public class FilesDetailsController {
 	}
 
 	@RequestMapping(value = "filesdetails", method = RequestMethod.PUT)
-	public FilesDetails updateFilesDetails(@RequestParam("file") MultipartFile file) {
+	public FilesDetails updateFilesDetails(@RequestParam("file") MultipartFile file, @RequestParam("fileId") int fileId) {
 		FilesDetails filesDetails = new FilesDetails();
 		try {
+			filesDetails.setFileId(fileId);
 			filesDetails.setFileContentType(file.getContentType());
 			filesDetails.setFileName(file.getOriginalFilename());
 			filesDetails.setFileContent(file.getBytes());
