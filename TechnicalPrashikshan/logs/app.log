@@ -303,3 +303,457 @@ java.sql.SQLException: Incorrect integer value: 'Update Test active' for column 
 2022-03-08 00:08:23,578 INFO com.technicalprashikshan.main.controller.ClientDetailsController [http-nio-8080-exec-5] 6
 2022-03-08 00:08:23,581 INFO com.technicalprashikshan.main.dao.rowmappers.ClientDetailsRowMapper [http-nio-8080-exec-5] ClientDetailsRowMapper mapRow
 2022-03-08 00:08:23,581 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-5] ContactDetailsRowMapper object created
+2022-03-08 00:08:23,583 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-5] ContactDetailsRowMapper mapRow
+2022-03-08 00:08:23,583 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-5] ContactDetails [contactId=3, firstName=Ranjeet, lastName=Patil, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=ranjeet.patil@gmail.com, emailTwo=null, contactType=vendor contact, contactStatus=active]
+2022-03-08 12:48:20,311 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-08 12:48:20,530 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:48:20,958 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 56540 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:48:20,959 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:48:22,622 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:48:22,701 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:48:22,702 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:48:22,710 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:48:23,736 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-03-08 12:51:45,859 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-08 12:51:46,045 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:51:46,407 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 60040 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:51:46,408 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:51:47,806 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:51:47,884 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:51:47,885 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:51:47,893 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:51:48,672 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 2.612 seconds (JVM running for 3.182)
+2022-03-08 12:51:48,675 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 12:52:02,637 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-2] Retriving all vendor details
+2022-03-08 12:52:02,647 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.technicalprashikshan.main.controller.VendorDetailsController.getAllClientDetails(VendorDetailsController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-08 12:52:37,384 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:52:37,429 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 60040 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:52:37,429 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:52:37,731 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:52:37,754 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:52:37,755 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:52:37,764 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:52:37,905 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.514 seconds (JVM running for 52.414)
+2022-03-08 12:52:37,907 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 12:52:49,662 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-2] Retriving all vendor details
+2022-03-08 12:52:49,665 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.technicalprashikshan.main.controller.VendorDetailsController.getAllClientDetails(VendorDetailsController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-08 12:53:04,134 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:53:04,163 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 60040 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:53:04,163 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:53:04,419 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:53:04,441 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:53:04,442 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:53:04,448 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:53:04,578 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.439 seconds (JVM running for 79.088)
+2022-03-08 12:53:04,580 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 12:53:08,990 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-2] Retriving all vendor details
+2022-03-08 12:53:09,145 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [select * from vendor_master order by company_name]; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'company_name' in 'order clause'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'company_name' in 'order clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1201)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:381)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:475)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO.getAllVendorDetails(VendorDetailsDAO.java:93)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO$$FastClassBySpringCGLIB$$d1e8c963.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO$$EnhancerBySpringCGLIB$$fdad327d.getAllVendorDetails(<generated>)
+	at com.technicalprashikshan.main.service.VendorDetailsService.getAllVendorDetails(VendorDetailsService.java:35)
+	at com.technicalprashikshan.main.controller.VendorDetailsController.getAllClientDetails(VendorDetailsController.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-08 12:53:37,949 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:53:37,981 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 60040 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:53:37,981 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:53:38,235 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:53:38,253 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:53:38,254 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:53:38,260 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:53:38,354 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.401 seconds (JVM running for 112.864)
+2022-03-08 12:53:38,355 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 12:53:39,703 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-2] Retriving all vendor details
+2022-03-08 12:53:39,733 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-2] VendorDetailsRowMapper mapRow
+2022-03-08 12:53:39,735 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper object created
+2022-03-08 12:53:39,753 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-08 12:53:39,754 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-08 12:53:39,754 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-2] VendorDetails [vendorId=1, vendorName=Pragati Software, addressLineOne=109,Lok Center, addressLineTwo=Marol Maroshi Road, landmark=Above ICICI Bank, city=Marol , Mumbai, state=Maharashtra, pin=400012, vendorStatus=active, primaryContactDetails=ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]]
+2022-03-08 12:53:39,754 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-2] VendorDetailsRowMapper mapRow
+2022-03-08 12:53:39,754 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper object created
+2022-03-08 12:53:39,756 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetailsRowMapper mapRow
+2022-03-08 12:53:39,757 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-2] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-08 12:53:39,757 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-2] VendorDetails [vendorId=2, vendorName=Spectrum Networks, addressLineOne=109,Lok Center, addressLineTwo=Marol Maroshi Road, landmark=Above ICICI Bank, city=Marol , Mumbai, state=Maharashtra, pin=400012, vendorStatus=active, primaryContactDetails=ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]]
+2022-03-08 12:54:12,157 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-3] VendorDetails [vendorId=0, vendorName=Test, addressLineOne=null, addressLineTwo=null, landmark=Test landmark, city=Test city, state=Test state, pin=00000, vendorStatus=Test, primaryContactDetails=null]
+2022-03-08 12:54:12,157 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-3] VendorDetails [vendorId=0, vendorName=Test, addressLineOne=null, addressLineTwo=null, landmark=Test landmark, city=Test city, state=Test state, pin=00000, vendorStatus=Test, primaryContactDetails=null]
+2022-03-08 12:54:12,162 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO.lambda$0(VendorDetailsDAO.java:49)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:649)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:991)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO.addNewVendorDetails(VendorDetailsDAO.java:38)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO$$FastClassBySpringCGLIB$$d1e8c963.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO$$EnhancerBySpringCGLIB$$fdad327d.addNewVendorDetails(<generated>)
+	at com.technicalprashikshan.main.service.VendorDetailsService.addNewVendorDetails(VendorDetailsService.java:20)
+	at com.technicalprashikshan.main.controller.VendorDetailsController.newClientDetails(VendorDetailsController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-08 12:56:22,760 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-5] VendorDetails [vendorId=0, vendorName=Test Vendor, addressLineOne=Test addressLineOne, addressLineTwo=Test addressLineTwo, landmark=Test landmark, city=Test city, state=Test state, pin=400012, vendorStatus=Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=null, lastName=null, contactNumberOne=null, contactNumberTwo=null, emailOne=null, emailTwo=null, contactType=null, contactStatus=null]]
+2022-03-08 12:56:22,761 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-5] VendorDetails [vendorId=0, vendorName=Test Vendor, addressLineOne=Test addressLineOne, addressLineTwo=Test addressLineTwo, landmark=Test landmark, city=Test city, state=Test state, pin=400012, vendorStatus=Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=null, lastName=null, contactNumberOne=null, contactNumberTwo=null, emailOne=null, emailTwo=null, contactType=null, contactStatus=null]]
+2022-03-08 12:56:22,781 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-5] Generated VendorId :: 4
+2022-03-08 12:57:00,480 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-6] VendorDetails [vendorId=4, vendorName=Update Test Vendor, addressLineOne=Update Test addressLineOne, addressLineTwo=Update Test addressLineTwo, landmark=Update Test landmark, city=Update Test city, state=Update Test state, pin=400012, vendorStatus=Update Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=null, lastName=null, contactNumberOne=null, contactNumberTwo=null, emailOne=null, emailTwo=null, contactType=null, contactStatus=null]]
+2022-03-08 12:57:00,480 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-6] VendorDetails [vendorId=4, vendorName=Update Test Vendor, addressLineOne=Update Test addressLineOne, addressLineTwo=Update Test addressLineTwo, landmark=Update Test landmark, city=Update Test city, state=Update Test state, pin=400012, vendorStatus=Update Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=null, lastName=null, contactNumberOne=null, contactNumberTwo=null, emailOne=null, emailTwo=null, contactType=null, contactStatus=null]]
+2022-03-08 12:57:00,483 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [update vendor_master set vendor_name = ? , address_line_1 = ? ,address_line_2 = ? ,landmark = ? ,city = ? ,state = ? ,pin = ? ,vendor_status = ? ,primary_contact_id = ?  where vendor_id = ?]; nested exception is java.sql.SQLException: No value specified for parameter 10] with root cause
+java.sql.SQLException: No value specified for parameter 10
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1121)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1046)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1371)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1031)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:965)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:651)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO.updateVendorDetails(VendorDetailsDAO.java:65)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO$$FastClassBySpringCGLIB$$d1e8c963.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.technicalprashikshan.main.dao.VendorDetailsDAO$$EnhancerBySpringCGLIB$$fdad327d.updateVendorDetails(<generated>)
+	at com.technicalprashikshan.main.service.VendorDetailsService.updateVendorDetails(VendorDetailsService.java:25)
+	at com.technicalprashikshan.main.controller.VendorDetailsController.updateClientDetails(VendorDetailsController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-08 12:58:01,412 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:58:01,442 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 60040 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:58:01,442 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:58:01,668 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:58:01,684 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:58:01,685 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:58:01,690 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:58:01,772 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.356 seconds (JVM running for 376.282)
+2022-03-08 12:58:01,773 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 12:58:03,374 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-08 12:58:03,399 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 60040 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-08 12:58:03,400 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-08 12:58:03,627 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-08 12:58:03,643 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-08 12:58:03,644 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-08 12:58:03,649 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-08 12:58:03,732 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.356 seconds (JVM running for 378.243)
+2022-03-08 12:58:03,734 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-08 12:58:04,143 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-2] VendorDetails [vendorId=4, vendorName=Update Test Vendor, addressLineOne=Update Test addressLineOne, addressLineTwo=Update Test addressLineTwo, landmark=Update Test landmark, city=Update Test city, state=Update Test state, pin=400012, vendorStatus=Update Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=null, lastName=null, contactNumberOne=null, contactNumberTwo=null, emailOne=null, emailTwo=null, contactType=null, contactStatus=null]]
+2022-03-08 12:58:04,149 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-2] VendorDetails [vendorId=4, vendorName=Update Test Vendor, addressLineOne=Update Test addressLineOne, addressLineTwo=Update Test addressLineTwo, landmark=Update Test landmark, city=Update Test city, state=Update Test state, pin=400012, vendorStatus=Update Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=null, lastName=null, contactNumberOne=null, contactNumberTwo=null, emailOne=null, emailTwo=null, contactType=null, contactStatus=null]]
+2022-03-08 12:58:04,167 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-2] Vendor Details Updated Successfully
+2022-03-08 12:58:12,629 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-3] Retriving all vendor details
+2022-03-08 12:58:12,633 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-3] VendorDetailsRowMapper mapRow
+2022-03-08 12:58:12,634 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper object created
+2022-03-08 12:58:12,650 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-08 12:58:12,650 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-08 12:58:12,651 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-3] VendorDetails [vendorId=1, vendorName=Pragati Software, addressLineOne=109,Lok Center, addressLineTwo=Marol Maroshi Road, landmark=Above ICICI Bank, city=Marol , Mumbai, state=Maharashtra, pin=400012, vendorStatus=active, primaryContactDetails=ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]]
+2022-03-08 12:58:12,651 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-3] VendorDetailsRowMapper mapRow
+2022-03-08 12:58:12,651 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper object created
+2022-03-08 12:58:12,652 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-08 12:58:12,652 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-08 12:58:12,652 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-3] VendorDetails [vendorId=2, vendorName=Spectrum Networks, addressLineOne=109,Lok Center, addressLineTwo=Marol Maroshi Road, landmark=Above ICICI Bank, city=Marol , Mumbai, state=Maharashtra, pin=400012, vendorStatus=active, primaryContactDetails=ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]]
+2022-03-08 12:58:12,653 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-3] VendorDetailsRowMapper mapRow
+2022-03-08 12:58:12,653 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper object created
+2022-03-08 12:58:12,654 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetailsRowMapper mapRow
+2022-03-08 12:58:12,654 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-3] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-08 12:58:12,654 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-3] VendorDetails [vendorId=4, vendorName=Update Test Vendor, addressLineOne=Update Test addressLineOne, addressLineTwo=Update Test addressLineTwo, landmark=Update Test landmark, city=Update Test city, state=Update Test state, pin=400012, vendorStatus=Update Test vendorStatus, primaryContactDetails=ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]]
+2022-03-08 12:58:28,670 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-4] 4
+2022-03-08 12:58:28,671 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-4] 4
+2022-03-08 12:58:28,689 INFO com.technicalprashikshan.main.dao.VendorDetailsDAO [http-nio-8080-exec-4] Vendor Details Deleted Successfully
+2022-03-08 12:58:33,046 INFO com.technicalprashikshan.main.controller.VendorDetailsController [http-nio-8080-exec-5] 1
+2022-03-08 12:58:33,048 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-5] VendorDetailsRowMapper mapRow
+2022-03-08 12:58:33,049 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-5] ContactDetailsRowMapper object created
+2022-03-08 12:58:33,050 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-5] ContactDetailsRowMapper mapRow
+2022-03-08 12:58:33,050 INFO com.technicalprashikshan.main.dao.rowmappers.ContactDetailsRowMapper [http-nio-8080-exec-5] ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]
+2022-03-08 12:58:33,050 INFO com.technicalprashikshan.main.dao.rowmappers.VendorDetailsRowMapper [http-nio-8080-exec-5] VendorDetails [vendorId=1, vendorName=Pragati Software, addressLineOne=109,Lok Center, addressLineTwo=Marol Maroshi Road, landmark=Above ICICI Bank, city=Marol , Mumbai, state=Maharashtra, pin=400012, vendorStatus=active, primaryContactDetails=ContactDetails [contactId=5, firstName=Bahubali, lastName=Acharekar, contactNumberOne=9920728158, contactNumberTwo=null, emailOne=bahubali.acharekar@gmail.com, emailTwo=null, contactType=client contact, contactStatus=active]]
