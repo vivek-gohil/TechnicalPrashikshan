@@ -78,12 +78,22 @@ public class UserDetailsDAO implements UserDetailsDAOInterface {
 
 	@Override
 	public List<UserDetails> getAllUsreDetails() {
-		return null;
+		List<UserDetails> userDetailsList = jdbcTemplate.query(selectAllUserDetails, new UserDetailsRowMapper());
+		return userDetailsList;
 	}
 
 	@Override
 	public boolean deleteUserDetailsByUserId(int userId) {
-		return false;
+		logger.info("" + userId);
+		Object[] args = { userId };
+		count = jdbcTemplate.update(deleteUserDetails, args);
+		if (count > 0) {
+			logger.info("User Details Deleted Successfully");
+			return true;
+		} else {
+			logger.info("Failed To Delete User Details");
+			return false;
+		}
 	}
 
 }
