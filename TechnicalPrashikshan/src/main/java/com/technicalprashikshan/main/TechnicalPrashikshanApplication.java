@@ -13,7 +13,6 @@ public class TechnicalPrashikshanApplication {
 		logger.info("logger is configured successfully!");
 		SpringApplication.run(TechnicalPrashikshanApplication.class, args);
 		logger.info("Spring-boot application is deployed successfully");
-		
 	}
 
 }
