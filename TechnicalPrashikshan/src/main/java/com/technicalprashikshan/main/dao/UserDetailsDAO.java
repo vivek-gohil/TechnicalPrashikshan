@@ -31,6 +31,13 @@ public class UserDetailsDAO implements UserDetailsDAOInterface {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	public UserDetailsDAO() {
+	}
+
+	public UserDetailsDAO(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	@Override
 	public int addNewUserDetails(UserDetails userDetails) {
 		logger.info(userDetails.toString());

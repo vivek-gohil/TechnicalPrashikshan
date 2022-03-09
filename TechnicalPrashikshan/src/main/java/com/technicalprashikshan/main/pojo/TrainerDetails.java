@@ -7,17 +7,17 @@ public class TrainerDetails {
 	private double perDayRate;
 	private FilesDetails profile;
 	private String description;
+	private String trainerStatus;
 	private ContactDetails trainerContactDetails;
 	private UserDetails userDetails;
 	private BankingDetails bankingDetails;
 
 	public TrainerDetails() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public TrainerDetails(int trainerId, String firstName, String lastName, double perDayRate, FilesDetails profile,
-			String description, ContactDetails trainerContactDetails, UserDetails userDetails,
-			BankingDetails bankingDetails) {
+			String description, String trainerDesrciption, String trainerStatus, ContactDetails trainerContactDetails,
+			UserDetails userDetails, BankingDetails bankingDetails) {
 		super();
 		this.trainerId = trainerId;
 		this.firstName = firstName;
@@ -25,6 +25,7 @@ public class TrainerDetails {
 		this.perDayRate = perDayRate;
 		this.profile = profile;
 		this.description = description;
+		this.trainerStatus = trainerStatus;
 		this.trainerContactDetails = trainerContactDetails;
 		this.userDetails = userDetails;
 		this.bankingDetails = bankingDetails;
@@ -78,6 +79,14 @@ public class TrainerDetails {
 		this.description = description;
 	}
 
+	public String getTrainerStatus() {
+		return trainerStatus;
+	}
+
+	public void setTrainerStatus(String trainerStatus) {
+		this.trainerStatus = trainerStatus;
+	}
+
 	public ContactDetails getTrainerContactDetails() {
 		return trainerContactDetails;
 	}
@@ -106,8 +115,8 @@ public class TrainerDetails {
 	public String toString() {
 		return "TrainerDetails [trainerId=" + trainerId + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", perDayRate=" + perDayRate + ", profile=" + profile + ", description=" + description
-				+ ", trainerContactDetails=" + trainerContactDetails + ", userDetails=" + userDetails
-				+ ", bankingDetails=" + bankingDetails + "]";
+				+ ", trainerStatus=" + trainerStatus + ", trainerContactDetails=" + trainerContactDetails
+				+ ", userDetails=" + userDetails + ", bankingDetails=" + bankingDetails + "]";
 	}
 
 }
