@@ -7,6 +7,7 @@ public class PurchaseOrderDetails {
 	private double amount;
 	private LocalDate receivedDate;
 	private FilesDetails purchaseOrderFile;
+	private String purchaseOrderStatus;
 	private VendorDetails vendorDetails;
 	private ClientDetails clientDetails;
 
@@ -15,12 +16,14 @@ public class PurchaseOrderDetails {
 	}
 
 	public PurchaseOrderDetails(int purchseOrderId, double amount, LocalDate receivedDate,
-			FilesDetails purchaseOrderFile, VendorDetails vendorDetails, ClientDetails clientDetails) {
+			FilesDetails purchaseOrderFile, String purchaseOrderStatus, VendorDetails vendorDetails,
+			ClientDetails clientDetails) {
 		super();
 		this.purchseOrderId = purchseOrderId;
 		this.amount = amount;
 		this.receivedDate = receivedDate;
 		this.purchaseOrderFile = purchaseOrderFile;
+		this.purchaseOrderStatus = purchaseOrderStatus;
 		this.vendorDetails = vendorDetails;
 		this.clientDetails = clientDetails;
 	}
@@ -57,6 +60,14 @@ public class PurchaseOrderDetails {
 		this.purchaseOrderFile = purchaseOrderFile;
 	}
 
+	public String getPurchaseOrderStatus() {
+		return purchaseOrderStatus;
+	}
+
+	public void setPurchaseOrderStatus(String purchaseOrderStatus) {
+		this.purchaseOrderStatus = purchaseOrderStatus;
+	}
+
 	public VendorDetails getVendorDetails() {
 		return vendorDetails;
 	}
@@ -76,8 +87,8 @@ public class PurchaseOrderDetails {
 	@Override
 	public String toString() {
 		return "PurchaseOrderDetails [purchseOrderId=" + purchseOrderId + ", amount=" + amount + ", receivedDate="
-				+ receivedDate + ", purchaseOrderFile=" + purchaseOrderFile + ", vendorDetails=" + vendorDetails
-				+ ", clientDetails=" + clientDetails + "]";
+				+ receivedDate + ", purchaseOrderFile=" + purchaseOrderFile + ", purchaseOrderStatus="
+				+ purchaseOrderStatus + ", vendorDetails=" + vendorDetails + ", clientDetails=" + clientDetails + "]";
 	}
 
 }
