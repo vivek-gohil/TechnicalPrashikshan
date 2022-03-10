@@ -3,7 +3,7 @@ package com.technicalprashikshan.main.pojo;
 import java.time.LocalDate;
 
 public class InvoiceDetails {
-	private int invoiceId;
+	private String invoiceId;
 	private LocalDate raisedDate;
 	private LocalDate clearingDate;
 	private double amount;
@@ -18,7 +18,7 @@ public class InvoiceDetails {
 		// TODO Auto-generated constructor stub
 	}
 
-	public InvoiceDetails(int invoiceId, LocalDate raisedDate, LocalDate clearingDate, double amount,
+	public InvoiceDetails(String invoiceId, LocalDate raisedDate, LocalDate clearingDate, double amount,
 			String amountInWords, FilesDetails invoiceFile, String invoiceStatus, double clearedAmount,
 			double taxDeductedAmount, TrainerDetails trainerDetails) {
 		super();
@@ -34,11 +34,11 @@ public class InvoiceDetails {
 		this.trainerDetails = trainerDetails;
 	}
 
-	public int getInvoiceId() {
+	public String getInvoiceId() {
 		return invoiceId;
 	}
 
-	public void setInvoiceId(int invoiceId) {
+	public void setInvoiceId(String invoiceId) {
 		this.invoiceId = invoiceId;
 	}
 
