@@ -31,6 +31,13 @@ public class ClientDetailsDAO implements ClientDetailsDAOInterface {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	public ClientDetailsDAO() {
+	}
+
+	public ClientDetailsDAO(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	@Override
 	public int addNewClientDetails(ClientDetails clientDetails) {
 

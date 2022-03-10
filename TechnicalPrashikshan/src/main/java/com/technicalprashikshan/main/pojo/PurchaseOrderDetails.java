@@ -3,7 +3,7 @@ package com.technicalprashikshan.main.pojo;
 import java.time.LocalDate;
 
 public class PurchaseOrderDetails {
-	private int purchseOrderId;
+	private String purchseOrderId;
 	private double amount;
 	private LocalDate receivedDate;
 	private FilesDetails purchaseOrderFile;
@@ -15,7 +15,7 @@ public class PurchaseOrderDetails {
 		// TODO Auto-generated constructor stub
 	}
 
-	public PurchaseOrderDetails(int purchseOrderId, double amount, LocalDate receivedDate,
+	public PurchaseOrderDetails(String purchseOrderId, double amount, LocalDate receivedDate,
 			FilesDetails purchaseOrderFile, String purchaseOrderStatus, VendorDetails vendorDetails,
 			ClientDetails clientDetails) {
 		super();
@@ -28,11 +28,11 @@ public class PurchaseOrderDetails {
 		this.clientDetails = clientDetails;
 	}
 
-	public int getPurchseOrderId() {
+	public String getPurchseOrderId() {
 		return purchseOrderId;
 	}
 
-	public void setPurchseOrderId(int purchseOrderId) {
+	public void setPurchseOrderId(String purchseOrderId) {
 		this.purchseOrderId = purchseOrderId;
 	}
 

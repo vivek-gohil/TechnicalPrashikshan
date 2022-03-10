@@ -31,6 +31,13 @@ public class VendorDetailsDAO implements VendorDetailsDAOInterface {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	public VendorDetailsDAO() {
+	}
+
+	public VendorDetailsDAO(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	@Override
 	public int addNewVendorDetails(VendorDetails vendorDetails) {
 		logger.info(vendorDetails.toString());
