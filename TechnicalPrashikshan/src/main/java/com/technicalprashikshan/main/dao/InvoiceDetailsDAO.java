@@ -73,6 +73,7 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 
 	@Override
 	public InvoiceDetails getInvoiceDetailsByInvoiceId(String invoiceId) {
+		logger.info("InvoiceId ::" + invoiceId);
 		InvoiceDetails invoiceDetails = null;
 		try {
 			Object[] args = { invoiceId };

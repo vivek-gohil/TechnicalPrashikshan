@@ -52,7 +52,8 @@ public class TrainingDetailsRowMapper implements RowMapper<TrainingDetails> {
 		trainingDetails.setPurchaseOrderDetails(purchaseOrderDetails);
 
 		InvoiceDetailsDAO invoiceDetailsDAO = new InvoiceDetailsDAO(jdbcTemplate);
-		InvoiceDetails invoiceDetails = invoiceDetailsDAO.getInvoiceDetailsByInvoiceId("invoice_id");
+		InvoiceDetails invoiceDetails = invoiceDetailsDAO
+				.getInvoiceDetailsByInvoiceId(restultSet.getString("invoice_id"));
 		trainingDetails.setInvoiceDetails(invoiceDetails);
 
 		return trainingDetails;
