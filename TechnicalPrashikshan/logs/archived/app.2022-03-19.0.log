@@ -1,0 +1,31 @@
+2022-03-19 23:32:19,325 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-19 23:32:19,578 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-19 23:32:19,976 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 11.0.14 on BornToCode with PID 77044 (C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-19 23:32:19,977 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-19 23:32:21,748 INFO com.technicalprashikshan.main.controller.BankingDetailsController [restartedMain] BankingDetailsController object created
+2022-03-19 23:32:21,841 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-19 23:32:21,852 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-19 23:32:21,853 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-19 23:32:21,863 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-19 23:32:21,871 INFO com.technicalprashikshan.main.controller.InvoiceDetailsController [restartedMain] InvoiceDetailsController object created
+2022-03-19 23:32:21,879 INFO com.technicalprashikshan.main.controller.PurchaseOrderDetailsController [restartedMain] PurchaseOrderDetailsController object created
+2022-03-19 23:32:21,886 INFO com.technicalprashikshan.main.controller.TrainerDetailsController [restartedMain] TrainerDetailsController object created
+2022-03-19 23:32:21,892 INFO com.technicalprashikshan.main.controller.TrainingDetailsController [restartedMain] TrainingDetailsController object created
+2022-03-19 23:32:21,929 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field trainingDetailsDAO in com.technicalprashikshan.main.service.TrainingDetailsService required a bean of type 'com.technicalprashikshan.main.dao.interfaces.TrainingDetailsDAOInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.technicalprashikshan.main.dao.interfaces.TrainingDetailsDAOInterface' in your configuration.
+

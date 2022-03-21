@@ -1,0 +1,65 @@
+package com.technicalprashikshan.main.dao;
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.technicalprashikshan.main.dao.interfaces.DaysDetailsDAOInterface;
+import com.technicalprashikshan.main.dao.rowmappers.DaysDetailsRowMapper;
+import com.technicalprashikshan.main.pojo.DaysDetails;
+
+@Repository
+public class DaysDetailsDAO implements DaysDetailsDAOInterface {
+	private static final Logger logger = LoggerFactory.getLogger(DaysDetailsDAO.class);
+	private static final String selectDaysByDaysId = "select * from days_master where day_id = ?";
+	private static final String selectAllDaysDetails = "select * from days_master";
+
+	private int count;
+
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+
+	@Override
+	public int addNewDaysDetails(DaysDetails daysDetails) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public DaysDetails updateDaysDetails(DaysDetails daysDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DaysDetails getDaysDetailsByDaysId(int daysId) {
+		DaysDetails daysDetails = null;
+		try {
+			Object[] args = { daysId };
+			daysDetails = jdbcTemplate.queryForObject(selectDaysByDaysId, new DaysDetailsRowMapper(jdbcTemplate), args);
+			if (daysDetails != null)
+				return daysDetails;
+		} catch (Exception e) {
+			logger.error("Exception :: " + e.getMessage());
+		}
+		return null;
+	}
+
+	@Override
+	public List<DaysDetails> getAllDaysDetails() {
+		List<DaysDetails> daysDetailsList = jdbcTemplate.query(selectAllDaysDetails,
+				new DaysDetailsRowMapper(jdbcTemplate));
+		return daysDetailsList;
+	}
+
+	@Override
+	public boolean deleteDaysDetailsByDaysId(int daysId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
