@@ -17,44 +17,44 @@ import com.technicalprashikshan.main.service.interfaces.BankingDetailsServiceInt
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("technicalprashikshanapi/financialyeardetailsapi")
+@RequestMapping("technicalprashikshanapi/bankingdetailsapi")
 public class BankingDetailsController {
 	private static final Logger logger = LoggerFactory.getLogger(BankingDetailsController.class);
 
 	@Autowired
-	private BankingDetailsServiceInterface financialYearDetailsService;
+	private BankingDetailsServiceInterface bankingDetailsService;
 
 	public BankingDetailsController() {
 		logger.info("BankingDetailsController object created");
 	}
 
-	@RequestMapping(value = "financialYeardetails", method = RequestMethod.POST)
-	public int newBankingDetails(@RequestBody BankingDetails financialYearDetails) {
-		logger.info(financialYearDetails.toString());
-		return financialYearDetailsService.addNewBankingDetails(financialYearDetails);
+	@RequestMapping(value = "bankingdetails", method = RequestMethod.POST)
+	public int newBankingDetails(@RequestBody BankingDetails bankingDetails) {
+		logger.info(bankingDetails.toString());
+		return bankingDetailsService.addNewBankingDetails(bankingDetails);
 	}
 
-	@RequestMapping(value = "financialYeardetails/{financialYearId}", method = RequestMethod.DELETE)
-	public boolean deleteBankingDetails(@PathVariable int financialYearId) {
-		logger.info("" + financialYearId);
-		return financialYearDetailsService.deleteBankingDetailsByBankingId(financialYearId);
+	@RequestMapping(value = "bankingdetails/{bankingId}", method = RequestMethod.DELETE)
+	public boolean deleteBankingDetails(@PathVariable int bankingId) {
+		logger.info("" + bankingId);
+		return bankingDetailsService.deleteBankingDetailsByBankingId(bankingId);
 	}
 
-	@RequestMapping(value = "financialYeardetails", method = RequestMethod.PUT)
-	public BankingDetails updateBankingDetails(@RequestBody BankingDetails financialYearDetails) {
-		logger.info(financialYearDetails.toString());
-		return financialYearDetailsService.updateBankingDetails(financialYearDetails);
+	@RequestMapping(value = "bankingdetails", method = RequestMethod.PUT)
+	public BankingDetails updateBankingDetails(@RequestBody BankingDetails bankingDetails) {
+		logger.info(bankingDetails.toString());
+		return bankingDetailsService.updateBankingDetails(bankingDetails);
 	}
 
-	@RequestMapping(value = "financialYeardetails/all", method = RequestMethod.GET)
+	@RequestMapping(value = "bankingdetails/all", method = RequestMethod.GET)
 	public List<BankingDetails> getAllBankingDetails() {
 		logger.info("Retriving all client details");
-		return financialYearDetailsService.getAllBankingDetails();
+		return bankingDetailsService.getAllBankingDetails();
 	}
 
-	@RequestMapping(value = "financialYeardetails/{financialYearId}", method = RequestMethod.GET)
-	public BankingDetails getSingleBankingDetails(@PathVariable int financialYearId) {
-		logger.info("" + financialYearId);
-		return financialYearDetailsService.getBankingDetailsByBankingId(financialYearId);
+	@RequestMapping(value = "bankingdetails/{bankingId}", method = RequestMethod.GET)
+	public BankingDetails getSingleBankingDetails(@PathVariable int bankingId) {
+		logger.info("" + bankingId);
+		return bankingDetailsService.getBankingDetailsByBankingId(bankingId);
 	}
 }
