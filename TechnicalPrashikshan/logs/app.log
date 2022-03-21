@@ -53,3 +53,39 @@
 2022-03-21 23:19:53,771 INFO com.technicalprashikshan.main.controller.UserDetailsController [main] UserDetailsController object created
 2022-03-21 23:19:53,782 INFO com.technicalprashikshan.main.controller.VendorDetailsController [main] VendorDetailsController object created
 2022-03-21 23:19:57,570 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] Started TechnicalPrashikshanApplicationTests in 5.324 seconds (JVM running for 6.291)
+2022-03-21 23:26:16,743 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] Starting TechnicalPrashikshanApplicationTests using Java 11.0.14 on BornToCode with PID 107864 (started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-21 23:26:16,747 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] No active profile set, falling back to default profiles: default
+2022-03-21 23:26:17,735 INFO com.technicalprashikshan.main.controller.BankingDetailsController [main] BankingDetailsController object created
+2022-03-21 23:26:17,868 INFO com.technicalprashikshan.main.controller.ClientDetailsController [main] ClientDetailsController object created
+2022-03-21 23:26:17,884 INFO com.technicalprashikshan.main.controller.ContactDetailsController [main] ContactDetailsController object created
+2022-03-21 23:26:17,887 INFO com.technicalprashikshan.main.service.ContactDetailsService [main] ContactDetailsService object created
+2022-03-21 23:26:17,899 INFO com.technicalprashikshan.main.controller.DaysDetailsController [main] DaysDetailsController object created
+2022-03-21 23:26:17,912 INFO com.technicalprashikshan.main.controller.FilesDetailsController [main] FilesDetailsController object created
+2022-03-21 23:26:17,923 INFO com.technicalprashikshan.main.controller.FinancialYearDetailsController [main] FinancialYearDetailsController object created
+2022-03-21 23:26:17,938 INFO com.technicalprashikshan.main.controller.InvoiceDetailsController [main] InvoiceDetailsController object created
+2022-03-21 23:26:17,949 INFO com.technicalprashikshan.main.controller.MonthsDetailsController [main] MonthsDetailsController object created
+2022-03-21 23:26:17,961 INFO com.technicalprashikshan.main.controller.PurchaseOrderDetailsController [main] PurchaseOrderDetailsController object created
+2022-03-21 23:26:17,974 INFO com.technicalprashikshan.main.controller.TrainerDetailsController [main] TrainerDetailsController object created
+2022-03-21 23:26:17,986 INFO com.technicalprashikshan.main.controller.TrainingDatesDetailsController [main] TrainingDatesDetailsController object created
+2022-03-21 23:26:18,000 INFO com.technicalprashikshan.main.controller.TrainingDetailsController [main] TrainingDetailsController object created
+2022-03-21 23:26:18,010 INFO com.technicalprashikshan.main.controller.UserDetailsController [main] UserDetailsController object created
+2022-03-21 23:26:18,020 INFO com.technicalprashikshan.main.controller.VendorDetailsController [main] VendorDetailsController object created
+2022-03-21 23:26:19,684 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] Started TechnicalPrashikshanApplicationTests in 3.23 seconds (JVM running for 4.161)
+2022-03-21 23:26:42,825 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] Starting TechnicalPrashikshanApplicationTests using Java 11.0.14 on BornToCode with PID 107292 (started by bornt in C:\Technical Prashikshan\Spring Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-21 23:26:42,828 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] No active profile set, falling back to default profiles: default
+2022-03-21 23:26:43,835 INFO com.technicalprashikshan.main.controller.BankingDetailsController [main] BankingDetailsController object created
+2022-03-21 23:26:43,974 INFO com.technicalprashikshan.main.controller.ClientDetailsController [main] ClientDetailsController object created
+2022-03-21 23:26:43,988 INFO com.technicalprashikshan.main.controller.ContactDetailsController [main] ContactDetailsController object created
+2022-03-21 23:26:43,990 INFO com.technicalprashikshan.main.service.ContactDetailsService [main] ContactDetailsService object created
+2022-03-21 23:26:44,004 INFO com.technicalprashikshan.main.controller.DaysDetailsController [main] DaysDetailsController object created
+2022-03-21 23:26:44,018 INFO com.technicalprashikshan.main.controller.FilesDetailsController [main] FilesDetailsController object created
+2022-03-21 23:26:44,031 INFO com.technicalprashikshan.main.controller.FinancialYearDetailsController [main] FinancialYearDetailsController object created
+2022-03-21 23:26:44,044 INFO com.technicalprashikshan.main.controller.InvoiceDetailsController [main] InvoiceDetailsController object created
+2022-03-21 23:26:44,056 INFO com.technicalprashikshan.main.controller.MonthsDetailsController [main] MonthsDetailsController object created
+2022-03-21 23:26:44,068 INFO com.technicalprashikshan.main.controller.PurchaseOrderDetailsController [main] PurchaseOrderDetailsController object created
+2022-03-21 23:26:44,079 INFO com.technicalprashikshan.main.controller.TrainerDetailsController [main] TrainerDetailsController object created
+2022-03-21 23:26:44,091 INFO com.technicalprashikshan.main.controller.TrainingDatesDetailsController [main] TrainingDatesDetailsController object created
+2022-03-21 23:26:44,101 INFO com.technicalprashikshan.main.controller.TrainingDetailsController [main] TrainingDetailsController object created
+2022-03-21 23:26:44,113 INFO com.technicalprashikshan.main.controller.UserDetailsController [main] UserDetailsController object created
+2022-03-21 23:26:44,122 INFO com.technicalprashikshan.main.controller.VendorDetailsController [main] VendorDetailsController object created
+2022-03-21 23:26:45,951 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] Started TechnicalPrashikshanApplicationTests in 3.39 seconds (JVM running for 4.292)
