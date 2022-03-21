@@ -21,6 +21,13 @@ public class DaysDetailsDAO implements DaysDetailsDAOInterface {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
+	public DaysDetailsDAO() {
+	}
+
+	public DaysDetailsDAO(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	@Override
 	public int addNewDaysDetails(DaysDetails daysDetails) {
 		return 0;
