@@ -21,7 +21,6 @@ public class FinancialYearDetailsRowMapper implements RowMapper<FinancialYearDet
 
 	@Override
 	public FinancialYearDetails mapRow(ResultSet resultSet, int rowNum) throws SQLException {
-		logger.info("VendorDetailsRowMapper mapRow");
 
 		FinancialYearDetails financialYearDetails = new FinancialYearDetails();
 

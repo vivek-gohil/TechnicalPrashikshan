@@ -2,6 +2,7 @@ package com.technicalprashikshan.main.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.technicalprashikshan.main.dao.interfaces.MonthsDetailsDAOInterface;
@@ -11,6 +12,7 @@ import com.technicalprashikshan.main.service.interfaces.MonthsDetailsServiceInte
 @Service
 public class MonthsDetailsService implements MonthsDetailsServiceInterface {
 
+	@Autowired
 	private MonthsDetailsDAOInterface monthsDetailsDAO;
 
 	@Override

@@ -48,7 +48,7 @@ public class MonthsDetailsController {
 
 	@RequestMapping(value = "monthsdetails/all", method = RequestMethod.GET)
 	public List<MonthsDetails> getAllMonthsDetails() {
-		logger.info("Retriving all client details");
+		logger.info("Retriving all months details");
 		return monthsDetailsService.getAllMonthsDetails();
 	}
 

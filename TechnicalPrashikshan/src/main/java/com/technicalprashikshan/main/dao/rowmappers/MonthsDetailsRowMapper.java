@@ -22,7 +22,6 @@ public class MonthsDetailsRowMapper implements RowMapper<MonthsDetails> {
 
 	@Override
 	public MonthsDetails mapRow(ResultSet resultSet, int rowNum) throws SQLException {
-		logger.info("MonthsDetailsRowMapper mapRow");
 		MonthsDetails monthsDetails = new MonthsDetails();
 
 		monthsDetails.setMonthId(resultSet.getInt("month_id"));
