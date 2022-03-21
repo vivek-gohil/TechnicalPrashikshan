@@ -27,7 +27,7 @@ public class FinancialYearDetailsRowMapper implements RowMapper<FinancialYearDet
 
 		financialYearDetails.setYearId(resultSet.getInt("year_id"));
 		financialYearDetails.setYearStartDate(resultSet.getDate("year_start_date").toLocalDate());
-		financialYearDetails.setYearStartDate(resultSet.getDate("year_end_date").toLocalDate());
+		financialYearDetails.setYearEndDate(resultSet.getDate("year_end_date").toLocalDate());
 
 		return financialYearDetails;
 	}

@@ -18,14 +18,11 @@ public class DaysDetailsDAO implements DaysDetailsDAOInterface {
 	private static final String selectDaysByDaysId = "select * from days_master where day_id = ?";
 	private static final String selectAllDaysDetails = "select * from days_master";
 
-	private int count;
-
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
 	@Override
 	public int addNewDaysDetails(DaysDetails daysDetails) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

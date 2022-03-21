@@ -11,10 +11,8 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
-import com.technicalprashikshan.main.dao.interfaces.TrainerDetailsDAOInterface;
 import com.technicalprashikshan.main.dao.interfaces.TrainingDetailsDAOInterface;
 import com.technicalprashikshan.main.dao.rowmappers.TrainingDetailsRowMapper;
-import com.technicalprashikshan.main.pojo.TrainerDetails;
 import com.technicalprashikshan.main.pojo.TrainingDetails;
 
 @Repository
