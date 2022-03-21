@@ -89,3 +89,25 @@
 2022-03-21 23:26:44,113 INFO com.technicalprashikshan.main.controller.UserDetailsController [main] UserDetailsController object created
 2022-03-21 23:26:44,122 INFO com.technicalprashikshan.main.controller.VendorDetailsController [main] VendorDetailsController object created
 2022-03-21 23:26:45,951 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplicationTests [main] Started TechnicalPrashikshanApplicationTests in 3.39 seconds (JVM running for 4.292)
+2022-03-21 23:49:25,743 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [main] logger is configured successfully!
+2022-03-21 23:49:25,916 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] logger is configured successfully!
+2022-03-21 23:49:26,275 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Starting TechnicalPrashikshanApplication using Java 17.0.1 on BornToCode with PID 108552 (C:\Technical_Prashikshan\Spring_Boot\TechnicalPrashikshan\TechnicalPrashikshan\target\classes started by bornt in C:\Technical_Prashikshan\Spring_Boot\TechnicalPrashikshan\TechnicalPrashikshan)
+2022-03-21 23:49:26,276 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-21 23:49:27,671 INFO com.technicalprashikshan.main.controller.BankingDetailsController [restartedMain] BankingDetailsController object created
+2022-03-21 23:49:27,748 INFO com.technicalprashikshan.main.controller.ClientDetailsController [restartedMain] ClientDetailsController object created
+2022-03-21 23:49:27,758 INFO com.technicalprashikshan.main.controller.ContactDetailsController [restartedMain] ContactDetailsController object created
+2022-03-21 23:49:27,759 INFO com.technicalprashikshan.main.service.ContactDetailsService [restartedMain] ContactDetailsService object created
+2022-03-21 23:49:27,768 INFO com.technicalprashikshan.main.controller.DaysDetailsController [restartedMain] DaysDetailsController object created
+2022-03-21 23:49:27,779 INFO com.technicalprashikshan.main.controller.FilesDetailsController [restartedMain] FilesDetailsController object created
+2022-03-21 23:49:27,791 INFO com.technicalprashikshan.main.controller.FinancialYearDetailsController [restartedMain] FinancialYearDetailsController object created
+2022-03-21 23:49:27,797 INFO com.technicalprashikshan.main.controller.InvoiceDetailsController [restartedMain] InvoiceDetailsController object created
+2022-03-21 23:49:27,803 INFO com.technicalprashikshan.main.controller.MonthsDetailsController [restartedMain] MonthsDetailsController object created
+2022-03-21 23:49:27,809 INFO com.technicalprashikshan.main.controller.PurchaseOrderDetailsController [restartedMain] PurchaseOrderDetailsController object created
+2022-03-21 23:49:27,817 INFO com.technicalprashikshan.main.controller.TrainerDetailsController [restartedMain] TrainerDetailsController object created
+2022-03-21 23:49:27,824 INFO com.technicalprashikshan.main.controller.TrainingDatesDetailsController [restartedMain] TrainingDatesDetailsController object created
+2022-03-21 23:49:27,831 INFO com.technicalprashikshan.main.controller.TrainingDetailsController [restartedMain] TrainingDetailsController object created
+2022-03-21 23:49:27,837 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-21 23:49:27,843 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-21 23:49:30,317 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 4.395 seconds (JVM running for 4.981)
+2022-03-21 23:49:30,324 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring-boot application is deployed successfully
+2022-03-21 23:49:30,325 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Project is deployed successfully
