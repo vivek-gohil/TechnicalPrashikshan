@@ -25,7 +25,7 @@ public class UserDetailsDAO implements UserDetailsDAOInterface {
 	private static final String deleteUserDetails = "delete from user_master where user_id = ?";
 	private static final String selectUserByUserId = "select * from user_master where user_id = ?";
 	private static final String selectAllUserDetails = "select * from user_master order by user_id";
-
+	private static final String userLogin = "select * from user_master where user_id = ? and password = ?";
 	private int count;
 
 	@Autowired
@@ -101,6 +101,19 @@ public class UserDetailsDAO implements UserDetailsDAOInterface {
 			logger.info("Failed To Delete User Details");
 			return false;
 		}
+	}
+
+	@Override
+	public UserDetails userLogin(UserDetails userDetails) {
+		try {
+			Object[] args = { userDetails.getUserId(), userDetails.getPassword() };
+			userDetails = jdbcTemplate.queryForObject(userLogin, new UserDetailsRowMapper(), args);
+			if (userDetails != null)
+				return userDetails;
+		} catch (Exception e) {
+			logger.error("Exception :: " + e.getMessage());
+		}
+		return null;
 	}
 
 }

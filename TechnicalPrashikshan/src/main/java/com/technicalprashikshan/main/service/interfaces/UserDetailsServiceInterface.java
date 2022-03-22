@@ -14,4 +14,6 @@ public interface UserDetailsServiceInterface {
 	public List<UserDetails> getAllUsreDetails();
 
 	public boolean deleteUserDetailsByUserId(int userId);
+
+	public UserDetails userLogin(UserDetails userDetails);
 }

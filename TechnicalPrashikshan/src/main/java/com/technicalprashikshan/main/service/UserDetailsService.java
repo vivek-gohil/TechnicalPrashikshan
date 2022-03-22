@@ -39,4 +39,9 @@ public class UserDetailsService implements UserDetailsServiceInterface {
 	public boolean deleteUserDetailsByUserId(int userId) {
 		return userDetailsDAO.deleteUserDetailsByUserId(userId);
 	}
+
+	@Override
+	public UserDetails userLogin(UserDetails userDetails) {
+		return userDetailsDAO.userLogin(userDetails);
+	}
 }

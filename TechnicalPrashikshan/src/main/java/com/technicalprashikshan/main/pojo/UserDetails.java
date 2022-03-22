@@ -8,7 +8,6 @@ public class UserDetails {
 	public UserDetails() {
 		// TODO Auto-generated constructor stub
 	}
-
 	public UserDetails(int userId, String password, String role) {
 		super();
 		this.userId = userId;

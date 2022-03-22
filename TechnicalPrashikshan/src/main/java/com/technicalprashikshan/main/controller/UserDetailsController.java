@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.technicalprashikshan.main.pojo.UserDetails;
 import com.technicalprashikshan.main.service.interfaces.UserDetailsServiceInterface;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("technicalprashikshanapi/userdetailsapi")
 public class UserDetailsController {
@@ -57,4 +57,12 @@ public class UserDetailsController {
 		logger.info("" + userId);
 		return userDetailsService.getUserDetailsByUserId(userId);
 	}
+
+	@RequestMapping(value = "userdetails/login", method = RequestMethod.POST)
+	public UserDetails userLogin(@RequestBody UserDetails userDetails) {
+		logger.info("userLogin");
+		logger.info(userDetails.toString());
+		return userDetailsService.userLogin(userDetails);
+	}
+
 }

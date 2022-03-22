@@ -2,7 +2,6 @@ package com.technicalprashikshan.main.dao.interfaces;
 
 import java.util.List;
 
-import com.technicalprashikshan.main.pojo.BankingDetails;
 import com.technicalprashikshan.main.pojo.InvoiceDetails;
 
 public interface InvoiceDetailsDAOInterface {
