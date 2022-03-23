@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingDatesDetails;
 import com.technicalprashikshan.main.service.interfaces.TrainingDatesDetailsServiceInterface;
 
@@ -29,32 +30,40 @@ public class TrainingDatesDetailsController {
 	}
 
 	@RequestMapping(value = "trainingdatesdetails", method = RequestMethod.POST)
-	public int newClientDetails(@RequestBody TrainingDatesDetails trainingDatesDetails) {
+	public int newTrainingDatesDetails(@RequestBody TrainingDatesDetails trainingDatesDetails) {
 		logger.info(trainingDatesDetails.toString());
 		return trainingDatesDetailsService.addNewTrainingDatesDetails(trainingDatesDetails);
 	}
 
 	@RequestMapping(value = "trainingdatesdetails/{trainingDatesId}", method = RequestMethod.DELETE)
-	public boolean deleteClientDetails(@PathVariable int trainingDatesId) {
+	public boolean deleteTrainingDatesDetails(@PathVariable int trainingDatesId) {
 		logger.info("" + trainingDatesId);
 		return trainingDatesDetailsService.deleteVenderDetailsByTrainingDatesId(trainingDatesId);
 	}
 
 	@RequestMapping(value = "trainingdatesdetails", method = RequestMethod.PUT)
-	public TrainingDatesDetails updateClientDetails(@RequestBody TrainingDatesDetails trainingDatesDetails) {
+	public TrainingDatesDetails updateTrainingDatesDetails(@RequestBody TrainingDatesDetails trainingDatesDetails) {
 		logger.info(trainingDatesDetails.toString());
 		return trainingDatesDetailsService.updateTrainingDatesDetails(trainingDatesDetails);
 	}
 
 	@RequestMapping(value = "trainingdatesdetails/all", method = RequestMethod.GET)
-	public List<TrainingDatesDetails> getAllClientDetails() {
+	public List<TrainingDatesDetails> getAllTrainingDatesDetails() {
 		logger.info("Retriving all trainingDates details");
 		return trainingDatesDetailsService.getAllTrainingDatesDetails();
 	}
 
 	@RequestMapping(value = "trainingdatesdetails/{trainingDatesId}", method = RequestMethod.GET)
-	public TrainingDatesDetails getSingleClientDetails(@PathVariable int trainingDatesId) {
+	public TrainingDatesDetails getSingleTrainingDatesDetails(@PathVariable int trainingDatesId) {
 		logger.info("" + trainingDatesId);
 		return trainingDatesDetailsService.getTrainingDatesDetailsByTrainingDatesId(trainingDatesId);
 	}
+
+	@RequestMapping(value = "trainingdatesdetails/bymonthstartdate", method = RequestMethod.POST)
+	public List<TrainingDatesDetails> getAllTrainingDatesDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
+		logger.info("Retriving all getAllTrainingDatesDetailsByMonthStartDate");
+		logger.info(monthsDetails.toString());
+		return trainingDatesDetailsService.getAllTrainingDatesDetailsByMonthStartDate(monthsDetails);
+	}
+
 }

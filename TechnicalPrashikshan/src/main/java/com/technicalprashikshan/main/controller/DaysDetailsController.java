@@ -62,6 +62,7 @@ public class DaysDetailsController {
 	@RequestMapping(value = "daysdetails/alldaysbymonthstartdate", method = RequestMethod.POST)
 	public List<DaysDetails> getAllDaysDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
 		logger.info("Retriving all month details by start date");
+		logger.info(monthsDetails.toString());
 		return daysDetailsService.getAllDaysDetailsByMonthStartDate(monthsDetails);
 	}
 }

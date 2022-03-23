@@ -14,4 +14,5 @@ public interface TrainingDetailsServiceInterface {
 	public List<TrainingDetails> getAllTrainingDetails();
 
 	public boolean deleteTrainingDetailsByTrainingId(int trainingId);
+	
 }
