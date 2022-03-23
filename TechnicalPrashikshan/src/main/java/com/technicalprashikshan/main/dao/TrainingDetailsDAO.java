@@ -125,7 +125,7 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 	public List<TrainingDetails> getAllTrainingDetailsByMonthStartDate(MonthsDetails monthsDetails) {
 		logger.info("" + monthsDetails);
 		Object[] args = { monthsDetails.getMonthStartDate() };
-		List<TrainingDetails> TrainingDetailsList = jdbcTemplate.query(selectAllTrainingDetails,
+		List<TrainingDetails> TrainingDetailsList = jdbcTemplate.query(selectAllTrainingDetailsByMonthStartDate,
 				new TrainingDetailsRowMapper(jdbcTemplate), args);
 		return TrainingDetailsList;
 	}

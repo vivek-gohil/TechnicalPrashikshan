@@ -58,10 +58,10 @@ public class TrainingDetailsController {
 		logger.info("" + trainingDetailsId);
 		return trainingDetailsService.getTrainingDetailsByTrainingId(trainingDetailsId);
 	}
-	
+
 	@RequestMapping(value = "trainingdetails/alltrainingdetailsbymonthstartdate", method = RequestMethod.POST)
 	public List<TrainingDetails> getAllTrainingDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
-		logger.info("Retriving all training details");
-		return trainingDetailsService.getAllTrainingDetails();
+		logger.info("Retriving all training details by month start date");
+		return trainingDetailsService.getAllTrainingDetailsByMonthStartDate(monthsDetails);
 	}
 }
