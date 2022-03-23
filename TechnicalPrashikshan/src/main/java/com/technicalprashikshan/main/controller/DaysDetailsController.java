@@ -65,4 +65,12 @@ public class DaysDetailsController {
 		logger.info(monthsDetails.toString());
 		return daysDetailsService.getAllDaysDetailsByMonthStartDate(monthsDetails);
 	}
+
+	@RequestMapping(value = "daysdetails/alltrainingdaysbymonthstartdate", method = RequestMethod.POST)
+	public List<DaysDetails> getAllTrainingDaysDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
+		logger.info("Retriving all training days details by start date");
+		logger.info(monthsDetails.toString());
+		return daysDetailsService.getAllTrainingDaysByMonthStartDate(monthsDetails);
+	}
+
 }

@@ -19,6 +19,7 @@ public class DaysDetailsDAO implements DaysDetailsDAOInterface {
 	private static final String selectDaysByDaysId = "select * from days_master where day_id = ?";
 	private static final String selectAllDaysDetails = "select * from days_master";
 	private static final String selectAllDaysDetailsByMonthStartDate = "select * from days_master where month_id = (select month_id from months_master where month_start_date = ?)";
+	private static final String selectAllTrainingDaysDetailsByMonthStartDate = "select * from days_master where day_id in (select day_id from training_dates_details where day_id IN ( select day_id from days_master where month_id = (select month_id from months_master where month_start_date = ?)))";
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
@@ -75,4 +76,12 @@ public class DaysDetailsDAO implements DaysDetailsDAOInterface {
 		return daysDetailsList;
 	}
 
+	@Override
+	public List<DaysDetails> getAllTrainingDaysByMonthStartDate(MonthsDetails monthsDetails) {
+		logger.info(monthsDetails.toString());
+		Object[] args = { monthsDetails.getMonthStartDate() };
+		List<DaysDetails> daysDetailsList = jdbcTemplate.query(selectAllTrainingDaysDetailsByMonthStartDate,
+				new DaysDetailsRowMapper(jdbcTemplate), args);
+		return daysDetailsList;
+	}
 }

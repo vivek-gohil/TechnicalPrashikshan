@@ -17,4 +17,6 @@ public interface DaysDetailsDAOInterface {
 	public boolean deleteDaysDetailsByDaysId(int daysId);
 
 	public List<DaysDetails> getAllDaysDetailsByMonthStartDate(MonthsDetails monthsDetails);
+
+	public List<DaysDetails> getAllTrainingDaysByMonthStartDate(MonthsDetails monthsDetails);
 }
