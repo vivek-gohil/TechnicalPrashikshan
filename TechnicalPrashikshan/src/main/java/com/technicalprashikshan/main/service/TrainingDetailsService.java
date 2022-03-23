@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.technicalprashikshan.main.dao.interfaces.TrainingDetailsDAOInterface;
+import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingDetails;
 import com.technicalprashikshan.main.service.interfaces.TrainingDetailsServiceInterface;
 
@@ -38,6 +39,11 @@ public class TrainingDetailsService implements TrainingDetailsServiceInterface {
 	@Override
 	public boolean deleteTrainingDetailsByTrainingId(int trainingId) {
 		return trainingDetailsDAO.deleteTrainingDetailsByTrainingId(trainingId);
+	}
+
+	@Override
+	public List<TrainingDetails> getAllTrainingDetailsByMonthStartDate(MonthsDetails monthsDetails) {
+		return trainingDetailsDAO.getAllTrainingDetailsByMonthStartDate(monthsDetails);
 	}
 
 }

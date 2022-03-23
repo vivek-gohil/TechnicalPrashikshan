@@ -13,6 +13,7 @@ import org.springframework.stereotype.Repository;
 
 import com.technicalprashikshan.main.dao.interfaces.TrainingDetailsDAOInterface;
 import com.technicalprashikshan.main.dao.rowmappers.TrainingDetailsRowMapper;
+import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingDetails;
 
 @Repository
@@ -25,6 +26,7 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 	private static final String deleteTrainingDetails = "delete from training_details where training_details_id = ?";
 	private static final String selectTrainingByTrainingId = "select * from training_details where training_details_id = ?";
 	private static final String selectAllTrainingDetails = "select * from training_details";
+	private static final String selectAllTrainingDetailsByMonthStartDate = "select * from training_details where training_details_id IN (select training_details_id from training_dates_details where day_id IN ( select day_id from days_master where month_id = (select month_id from months_master where month_start_date = ?)))";
 
 	private int count;
 
@@ -117,6 +119,15 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 			logger.info("Failed To Delete Training Details");
 			return false;
 		}
+	}
+
+	@Override
+	public List<TrainingDetails> getAllTrainingDetailsByMonthStartDate(MonthsDetails monthsDetails) {
+		logger.info("" + monthsDetails);
+		Object[] args = { monthsDetails.getMonthStartDate() };
+		List<TrainingDetails> TrainingDetailsList = jdbcTemplate.query(selectAllTrainingDetails,
+				new TrainingDetailsRowMapper(jdbcTemplate), args);
+		return TrainingDetailsList;
 	}
 
 }

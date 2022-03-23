@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingDetails;
 import com.technicalprashikshan.main.service.interfaces.TrainingDetailsServiceInterface;
 
@@ -56,5 +57,11 @@ public class TrainingDetailsController {
 	public TrainingDetails getSingleTrainingDetails(@PathVariable int trainingDetailsId) {
 		logger.info("" + trainingDetailsId);
 		return trainingDetailsService.getTrainingDetailsByTrainingId(trainingDetailsId);
+	}
+	
+	@RequestMapping(value = "trainingdetails/alltrainingdetailsbymonthstartdate", method = RequestMethod.POST)
+	public List<TrainingDetails> getAllTrainingDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
+		logger.info("Retriving all training details");
+		return trainingDetailsService.getAllTrainingDetails();
 	}
 }
