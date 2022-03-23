@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.technicalprashikshan.main.dao.interfaces.DaysDetailsDAOInterface;
 import com.technicalprashikshan.main.pojo.DaysDetails;
+import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.service.interfaces.DaysDetailsServiceInterface;
 
 @Service
@@ -38,6 +39,11 @@ public class DaysDetailsService implements DaysDetailsServiceInterface, DaysDeta
 	@Override
 	public boolean deleteDaysDetailsByDaysId(int daysId) {
 		return daysDetailsDAO.deleteDaysDetailsByDaysId(daysId);
+	}
+
+	@Override
+	public List<DaysDetails> getAllDaysDetailsByMonthStartDate(MonthsDetails monthsDetails) {
+		return daysDetailsDAO.getAllDaysDetailsByMonthStartDate(monthsDetails);
 	}
 
 }

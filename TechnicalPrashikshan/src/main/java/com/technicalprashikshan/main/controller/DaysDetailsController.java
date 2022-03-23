@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.technicalprashikshan.main.pojo.DaysDetails;
+import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.service.interfaces.DaysDetailsServiceInterface;
 
 @CrossOrigin(origins = "*")
@@ -56,5 +57,11 @@ public class DaysDetailsController {
 	public DaysDetails getSingleDaysDetails(@PathVariable int daysId) {
 		logger.info("" + daysId);
 		return daysDetailsService.getDaysDetailsByDaysId(daysId);
+	}
+
+	@RequestMapping(value = "daysdetails/alldaysbymonthstartdate", method = RequestMethod.POST)
+	public List<DaysDetails> getAllDaysDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
+		logger.info("Retriving all month details by start date");
+		return daysDetailsService.getAllDaysDetailsByMonthStartDate(monthsDetails);
 	}
 }
