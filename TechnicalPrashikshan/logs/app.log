@@ -2455,3 +2455,7 @@ Consider defining a bean of type 'com.technicalprashikshan.main.service.interfac
 2022-03-24 11:54:05,192 INFO com.technicalprashikshan.main.controller.TrainerDetailsController [restartedMain] TrainerDetailsController object created
 2022-03-24 11:54:05,201 INFO com.technicalprashikshan.main.controller.TrainingDatesDetailsController [restartedMain] TrainingDatesDetailsController object created
 2022-03-24 11:54:05,208 INFO com.technicalprashikshan.main.controller.TrainingDetailsController [restartedMain] TrainingDetailsController object created
+2022-03-24 11:54:05,211 INFO com.technicalprashikshan.main.controller.UserDetailsController [restartedMain] UserDetailsController object created
+2022-03-24 11:54:05,222 INFO com.technicalprashikshan.main.controller.VendorDetailsController [restartedMain] VendorDetailsController object created
+2022-03-24 11:54:05,396 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Started TechnicalPrashikshanApplication in 0.769 seconds (JVM running for 5657.799)
+2022-03-24 11:54:05,398 INFO com.technicalprashikshan.main.TechnicalPrashikshanApplication [restartedMain] Spring Boot application is deployed successfully!!
