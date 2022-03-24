@@ -1,15 +1,15 @@
 package com.technicalprashikshan.main.pojo;
 
-public class MonthlyTrainingCalenderDetails {
+public class MonthlyTrainingCalendarDetails {
 	private DaysDetails allDaysDetails;
 	private DaysDetails trainingDaysDetails;
 	private TrainingDetails trainingDetails;
 
-	public MonthlyTrainingCalenderDetails() {
+	public MonthlyTrainingCalendarDetails() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public MonthlyTrainingCalenderDetails(DaysDetails allDaysDetails, DaysDetails trainingDaysDetails,
+	public MonthlyTrainingCalendarDetails(DaysDetails allDaysDetails, DaysDetails trainingDaysDetails,
 			TrainingDetails trainingDetails) {
 		super();
 		this.allDaysDetails = allDaysDetails;

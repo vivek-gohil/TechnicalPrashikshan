@@ -7,11 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.technicalprashikshan.main.pojo.DaysDetails;
-import com.technicalprashikshan.main.pojo.MonthlyTrainingCalenderDetails;
+import com.technicalprashikshan.main.pojo.MonthlyTrainingCalendarDetails;
 import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingCalendarDetails;
+import com.technicalprashikshan.main.pojo.TrainingDatesDetails;
 import com.technicalprashikshan.main.service.interfaces.MonthlyTrainingCalendarDetailsServiceInterface;
 import com.technicalprashikshan.main.service.interfaces.TrainingCalendarDetailsServiceInterface;
+import com.technicalprashikshan.main.service.interfaces.TrainingDatesDetailsServiceInterface;
 
 @Service
 public class MonthlyCalendarDetailsService implements MonthlyTrainingCalendarDetailsServiceInterface {
@@ -19,10 +21,13 @@ public class MonthlyCalendarDetailsService implements MonthlyTrainingCalendarDet
 	@Autowired
 	private TrainingCalendarDetailsServiceInterface trainingCalendarDetailsService;
 
+	@Autowired
+	private TrainingDatesDetailsServiceInterface trainingDatesDetailsService;
+
 	@Override
-	public List<MonthlyTrainingCalenderDetails> getMonthlyTrainingCalenderDetails(MonthsDetails monthsDetails) {
+	public List<MonthlyTrainingCalendarDetails> getMonthlyTrainingCalenderDetails(MonthsDetails monthsDetails) {
 		// creating a empty list to store full month details
-		List<MonthlyTrainingCalenderDetails> monthlyTrainingCalenderDetailsList = new ArrayList<MonthlyTrainingCalenderDetails>();
+		List<MonthlyTrainingCalendarDetails> monthlyTrainingCalenderDetailsList = new ArrayList<MonthlyTrainingCalendarDetails>();
 
 		// retrieving training calendar details
 		TrainingCalendarDetails trainingCalendarDetails = trainingCalendarDetailsService
@@ -31,21 +36,40 @@ public class MonthlyCalendarDetailsService implements MonthlyTrainingCalendarDet
 
 		// adding all days into monthlyTrainingCalenderDetailsList
 		for (DaysDetails daysDetails : allDaysDetailsList) {
-			MonthlyTrainingCalenderDetails monthlyTrainingCalenderDetails = new MonthlyTrainingCalenderDetails();
+			MonthlyTrainingCalendarDetails monthlyTrainingCalenderDetails = new MonthlyTrainingCalendarDetails();
 			monthlyTrainingCalenderDetails.setAllDaysDetails(daysDetails);
 			monthlyTrainingCalenderDetailsList.add(monthlyTrainingCalenderDetails);
 		}
 
 		List<DaysDetails> trainingDaysDetails = trainingCalendarDetails.getTrainingDaysDetailsList();
 
-		for (MonthlyTrainingCalenderDetails monthlyTrainingCalenderDetails : monthlyTrainingCalenderDetailsList) {
+		for (MonthlyTrainingCalendarDetails monthlyTrainingCalenderDetails : monthlyTrainingCalenderDetailsList) {
 			for (DaysDetails daysDetails : trainingDaysDetails) {
 				if (monthlyTrainingCalenderDetails.getAllDaysDetails().getDaysId() == daysDetails.getDaysId()) {
 					monthlyTrainingCalenderDetails.setTrainingDaysDetails(daysDetails);
 				}
 			}
 		}
-		
+
+		List<TrainingDatesDetails> trainingDatesDetailsList = trainingDatesDetailsService
+				.getAllTrainingDatesDetailsByMonthStartDate(monthsDetails);
+
+		for (MonthlyTrainingCalendarDetails monthlyTrainingCalenderDetails : monthlyTrainingCalenderDetailsList) {
+			for (TrainingDatesDetails trainingDatesDetails : trainingDatesDetailsList) {
+				if (monthlyTrainingCalenderDetails.getAllDaysDetails().getDaysId() == trainingDatesDetails
+						.getDaysDetails().getDaysId()) {
+					monthlyTrainingCalenderDetails.setTrainingDetails(trainingDatesDetails.getTrainingDetails());
+				}
+			}
+		}
+
+//		for (TrainingDatesDetails trainingDatesDetails : trainingDatesDetailsList) {
+//			for (DaysDetails daysDetails : trainingDaysDetails) {
+//				if(trainingDatesDetails.getDaysDetails().getDaysId() == daysDetails.getDaysId()) {
+//					
+//				}
+//			}
+//		}
 		return monthlyTrainingCalenderDetailsList;
 	}
 

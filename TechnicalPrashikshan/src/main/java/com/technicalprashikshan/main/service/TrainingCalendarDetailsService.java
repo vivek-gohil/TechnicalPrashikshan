@@ -22,9 +22,6 @@ public class TrainingCalendarDetailsService implements TrainingCalendarDetailsSe
 	@Autowired
 	private DaysDetailsDAOInterface daysDetailsDAO;
 
-	@Autowired
-	private TrainingDetailsDAOInterface trainingDetailsDAO;
-
 	@Override
 	public TrainingCalendarDetails getAllTrainingCalenderDetailsByMonthStartDate(MonthsDetails monthsDetails) {
 
@@ -37,10 +34,6 @@ public class TrainingCalendarDetailsService implements TrainingCalendarDetailsSe
 		List<DaysDetails> allAllTrainingDaysDetailsByMonthStartDate = daysDetailsDAO
 				.getAllTrainingDaysByMonthStartDate(monthsDetails);
 		trainingCalendarDetails.setTrainingDaysDetailsList(allAllTrainingDaysDetailsByMonthStartDate);
-
-		List<TrainingDetails> allTrainingDetailsByMonthStartDate = trainingDetailsDAO
-				.getAllTrainingDetailsByMonthStartDate(monthsDetails);
-		trainingCalendarDetails.setTrainingDetailsList(allTrainingDetailsByMonthStartDate);
 
 		return trainingCalendarDetails;
 	}

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.technicalprashikshan.main.pojo.MonthlyTrainingCalenderDetails;
+import com.technicalprashikshan.main.pojo.MonthlyTrainingCalendarDetails;
 import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.service.interfaces.MonthlyTrainingCalendarDetailsServiceInterface;
 
@@ -25,12 +25,12 @@ public class MonthlyTrainingCalenderDetailsController {
 	private MonthlyTrainingCalendarDetailsServiceInterface monthlyTrainingCalendarDetailsService;
 
 	@RequestMapping(value = "monthlytrainingcalendardetails/bymonthstartdate", method = RequestMethod.POST)
-	public List<MonthlyTrainingCalenderDetails> getMonthlyTrainingCalenderDetails(
+	public List<MonthlyTrainingCalendarDetails> getMonthlyTrainingCalenderDetails(
 			@RequestBody MonthsDetails monthsDetails) {
 		logger.info(monthsDetails.toString());
-		List<MonthlyTrainingCalenderDetails> monthlyTrainingCalendarList = monthlyTrainingCalendarDetailsService
+		List<MonthlyTrainingCalendarDetails> monthlyTrainingCalendarList = monthlyTrainingCalendarDetailsService
 				.getMonthlyTrainingCalenderDetails(monthsDetails);
-		for (MonthlyTrainingCalenderDetails monthlyTrainingCalenderDetails : monthlyTrainingCalendarList) {
+		for (MonthlyTrainingCalendarDetails monthlyTrainingCalenderDetails : monthlyTrainingCalendarList) {
 			logger.info(monthlyTrainingCalenderDetails.toString());
 		}
 		return monthlyTrainingCalendarList;
