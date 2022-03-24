@@ -34,28 +34,13 @@ public class TrainingCalendarDetailsService implements TrainingCalendarDetailsSe
 				.getAllDaysDetailsByMonthStartDate(monthsDetails);
 		trainingCalendarDetails.setAllDaysDetailsList(allDaysDetailsByMonthStartDate);
 
-
 		List<DaysDetails> allAllTrainingDaysDetailsByMonthStartDate = daysDetailsDAO
 				.getAllTrainingDaysByMonthStartDate(monthsDetails);
 		trainingCalendarDetails.setTrainingDaysDetailsList(allAllTrainingDaysDetailsByMonthStartDate);
-		
 
 		List<TrainingDetails> allTrainingDetailsByMonthStartDate = trainingDetailsDAO
 				.getAllTrainingDetailsByMonthStartDate(monthsDetails);
 		trainingCalendarDetails.setTrainingDetailsList(allTrainingDetailsByMonthStartDate);
-		
-		
-		for (DaysDetails daysDetails : allDaysDetailsByMonthStartDate) {
-			logger.info(daysDetails.toString());
-		}
-		logger.info("-".repeat(50));
-		for (DaysDetails daysDetails : allAllTrainingDaysDetailsByMonthStartDate) {
-			logger.info(daysDetails.toString());
-		}
-		logger.info("-".repeat(50));
-		for (TrainingDetails trainingDetails : allTrainingDetailsByMonthStartDate) {
-			logger.info(trainingDetails.toString());
-		}
 
 		return trainingCalendarDetails;
 	}
