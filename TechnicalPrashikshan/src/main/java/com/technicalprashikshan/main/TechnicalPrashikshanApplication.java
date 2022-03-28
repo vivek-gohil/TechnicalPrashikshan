@@ -10,9 +10,12 @@ public class TechnicalPrashikshanApplication {
 	private static final Logger logger = LoggerFactory.getLogger(TechnicalPrashikshanApplication.class);
 
 	public static void main(String[] args) {
+		logger.info("Start!");
+
 		logger.info("logger is configured successfully!");
 		SpringApplication.run(TechnicalPrashikshanApplication.class, args);
 		logger.info("Spring Boot application is deployed successfully!!");
+		logger.info("End!");
 	}
 
 }
