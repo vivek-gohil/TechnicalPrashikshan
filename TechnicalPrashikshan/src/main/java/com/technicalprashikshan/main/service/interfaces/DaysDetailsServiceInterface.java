@@ -20,4 +20,6 @@ public interface DaysDetailsServiceInterface {
 	
 	public List<DaysDetails> getAllTrainingDaysByMonthStartDate(MonthsDetails monthsDetails);
 	
+	public List<DaysDetails> getAllSelectedDaysByDayId(List<Integer> dayIdList);
+	
 }

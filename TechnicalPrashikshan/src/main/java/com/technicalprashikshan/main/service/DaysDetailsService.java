@@ -51,4 +51,9 @@ public class DaysDetailsService implements DaysDetailsServiceInterface, DaysDeta
 		return daysDetailsDAO.getAllTrainingDaysByMonthStartDate(monthsDetails);
 	}
 
+	@Override
+	public List<DaysDetails> getAllSelectedDaysByDayId(List<Integer> dayIdList) {
+		return daysDetailsDAO.getAllSelectedDaysByDayId(dayIdList);
+	}
+
 }
