@@ -14,4 +14,6 @@ public interface ClientDetailsDAOInterface {
 	public List<ClientDetails> getAllClientDetails();
 
 	public boolean deleteClientDetailsByClientId(int clientId);
+
+	public ClientDetails getClientDetailsByCompanyName(String companyName);
 }

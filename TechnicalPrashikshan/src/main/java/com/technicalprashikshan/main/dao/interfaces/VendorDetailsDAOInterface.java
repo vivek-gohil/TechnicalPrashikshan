@@ -14,4 +14,6 @@ public interface VendorDetailsDAOInterface {
 	public List<VendorDetails> getAllVendorDetails();
 
 	public boolean deleteVenderDetailsByVendorId(int vendorId);
+	
+	public VendorDetails getVendorDetailsByVendorName(String vendorName);
 }

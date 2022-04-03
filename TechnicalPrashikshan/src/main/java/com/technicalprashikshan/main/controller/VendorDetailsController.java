@@ -57,4 +57,10 @@ public class VendorDetailsController {
 		logger.info("" + vendorId);
 		return vendorDetailsService.getVendorDetailsByVendorId(vendorId);
 	}
+
+	@RequestMapping(value = "vendordetails/byname/{vendorName}", method = RequestMethod.GET)
+	public VendorDetails getClientDetailsByVendorName(@PathVariable String vendorName) {
+		logger.info("" + vendorName);
+		return vendorDetailsService.getVendorDetailsByVendorName(vendorName);
+	}
 }

@@ -1,7 +1,7 @@
 package com.technicalprashikshan.main.dao;
 
+import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,7 +21,7 @@ public class DaysDetailsDAO implements DaysDetailsDAOInterface {
 	private static final String selectAllDaysDetails = "select * from days_master";
 	private static final String selectAllDaysDetailsByMonthStartDate = "select * from days_master where month_id = (select month_id from months_master where month_start_date = ?)";
 	private static final String selectAllTrainingDaysDetailsByMonthStartDate = "select * from days_master where day_id in (select day_id from training_dates_details where day_id IN ( select day_id from days_master where month_id = (select month_id from months_master where month_start_date = ?)))";
-	private static final String selectAllTrainingDaysByDayId = "select * from days_master where day_id IN (?)";
+	private static final String selectAllTrainingDaysByDayId = "select * from days_master where day_id IN (%s)";
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
@@ -89,9 +89,11 @@ public class DaysDetailsDAO implements DaysDetailsDAOInterface {
 
 	@Override
 	public List<DaysDetails> getAllSelectedDaysByDayId(List<Integer> dayIdList) {
-//		String params = String.join(",", dayIdList.stream().map(daysId -> "?").collect(Collectors.toList()));
-//		List<DaysDetails> users = jdbcTemplate.query(
-//		        String.format("select * from days_master where day_id IN (%s)", params), params.toArray(), new DaysDetailsRowMapper());
-		return null;
+		String inSql = String.join(",", Collections.nCopies(dayIdList.size(), "?"));
+
+		List<DaysDetails> selectedDaysList = jdbcTemplate.query(
+				String.format(selectAllTrainingDaysByDayId, inSql),
+				new DaysDetailsRowMapper(jdbcTemplate), dayIdList.toArray());
+		return selectedDaysList;
 	}
 }

@@ -57,4 +57,10 @@ public class ClientDetailsController {
 		logger.info("" + clientId);
 		return clientDetailsService.getClientDetailsByClientId(clientId);
 	}
+
+	@RequestMapping(value = "clientdetails/byname/{companyName}", method = RequestMethod.GET)
+	public ClientDetails getClientDetailsByCompanyName(@PathVariable String companyName) {
+		logger.info("" + companyName);
+		return clientDetailsService.getClientDetailsByCompanyName(companyName);
+	}
 }

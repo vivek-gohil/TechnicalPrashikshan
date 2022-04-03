@@ -40,4 +40,9 @@ public class VendorDetailsService implements VendorDetailsServiceInteface {
 		return vendorDetailsDAO.deleteVenderDetailsByVendorId(vendorId);
 	}
 
+	@Override
+	public VendorDetails getVendorDetailsByVendorName(String vendorName) {
+		return vendorDetailsDAO.getVendorDetailsByVendorName(vendorName);
+	}
+
 }

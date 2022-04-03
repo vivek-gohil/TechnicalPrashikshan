@@ -73,4 +73,13 @@ public class DaysDetailsController {
 		return daysDetailsService.getAllTrainingDaysByMonthStartDate(monthsDetails);
 	}
 
+	@RequestMapping(value = "daysdetails/alltselecteddays", method = RequestMethod.POST)
+	public List<DaysDetails> getAllSelectedDaysByDayId(@RequestBody List<Integer> dayIdList) {
+		logger.info("Retriving days details for the selected dayId");
+		for (Integer dayId : dayIdList) {
+			logger.info(dayId.toString());
+		}
+		return daysDetailsService.getAllSelectedDaysByDayId(dayIdList);
+	}
+	
 }

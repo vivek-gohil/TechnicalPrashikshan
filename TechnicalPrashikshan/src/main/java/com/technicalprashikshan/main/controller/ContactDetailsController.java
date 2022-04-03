@@ -57,5 +57,5 @@ public class ContactDetailsController {
 		logger.info("" + contactId);
 		return contactDetailsService.getContactDetailsByContactId(contactId);
 	}
-
+	
 }

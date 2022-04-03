@@ -40,4 +40,9 @@ public class ClientDetailsService implements ClientDetailsServiceInterface {
 		return clientDetailsDAO.deleteClientDetailsByClientId(clientId);
 	}
 
+	@Override
+	public ClientDetails getClientDetailsByCompanyName(String companyName) {
+		return clientDetailsDAO.getClientDetailsByCompanyName(companyName);
+	}
+
 }

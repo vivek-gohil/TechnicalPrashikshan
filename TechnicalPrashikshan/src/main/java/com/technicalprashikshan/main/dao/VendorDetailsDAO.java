@@ -25,7 +25,7 @@ public class VendorDetailsDAO implements VendorDetailsDAOInterface {
 	private static final String deleteVendorDetails = "delete from vendor_master where vendor_id = ?";
 	private static final String selectVendorByVendorId = "select * from vendor_master where vendor_id = ?";
 	private static final String selectAllVendorDetails = "select * from vendor_master order by vendor_name";
-
+	private static final String selectVendorByVendorName = "select * from vendor_master where vendor_name = ?";
 	private int count;
 
 	@Autowired
@@ -114,6 +114,21 @@ public class VendorDetailsDAO implements VendorDetailsDAOInterface {
 			logger.info("Failed To Delete Vendor Details");
 			return false;
 		}
+	}
+
+	@Override
+	public VendorDetails getVendorDetailsByVendorName(String vendorName) {
+		VendorDetails vendorDetails = null;
+		try {
+			Object[] args = { vendorName };
+			vendorDetails = jdbcTemplate.queryForObject(selectVendorByVendorName,
+					new VendorDetailsRowMapper(jdbcTemplate), args);
+			if (vendorDetails != null)
+				return vendorDetails;
+		} catch (Exception e) {
+			logger.error("Exception :: " + e.getMessage());
+		}
+		return null;
 	}
 
 }

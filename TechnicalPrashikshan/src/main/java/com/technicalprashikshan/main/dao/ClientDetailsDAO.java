@@ -24,7 +24,8 @@ public class ClientDetailsDAO implements ClientDetailsDAOInterface {
 	private static final String updateClientDetails = "update client_master set company_name = ? ,address_line_1 = ? ,address_line_2 = ? ,landmark = ? ,city = ? ,state = ? ,pin = ? ,client_status = ? ,primary_contact_id = ? where client_id = ?";
 	private static final String deleteClientDetails = "delete from client_master where client_id = ?";
 	private static final String selectClientByClientId = "select * from client_master where client_id = ?";
-	private static final String selectAllClientDetails = "select * from client_master order by company_name";
+	private static final String selectAllClientDetails = "select * from client_master order by company_name = ?";
+	private static final String selectClientDetailsByCompanyName = "select * from client_master where company_name = ?";
 
 	private int count;
 
@@ -115,6 +116,22 @@ public class ClientDetailsDAO implements ClientDetailsDAOInterface {
 			logger.info("Failed To Delete Client Details");
 			return false;
 		}
+	}
+	
+	
+	@Override
+	public ClientDetails getClientDetailsByCompanyName(String companyName) {
+		ClientDetails clientDetails = null;
+		try {
+			Object[] args = { companyName };
+			clientDetails = jdbcTemplate.queryForObject(selectClientDetailsByCompanyName,
+					new ClientDetailsRowMapper(jdbcTemplate), args);
+			if (clientDetails != null)
+				return clientDetails;
+		} catch (Exception e) {
+			logger.error("Exception :: " + e.getMessage());
+		}
+		return null;
 	}
 
 }

@@ -17,5 +17,4 @@ public class TechnicalPrashikshanApplication {
 		logger.info("Spring Boot application is deployed successfully!!");
 		logger.info("End!");
 	}
-
 }
