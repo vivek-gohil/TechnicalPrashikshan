@@ -57,4 +57,10 @@ public class TrainerDetailsController {
 		logger.info("" + trainerId);
 		return trainerDetailsService.getTrainerDetailsByTrainerId(trainerId);
 	}
+	
+	@RequestMapping(value = "trainerdetails/byuserid/{userId}", method = RequestMethod.GET)
+	public TrainerDetails getSingleTrainerDetailsByUserId(@PathVariable int userId) {
+		logger.info("" + userId);
+		return trainerDetailsService.getTrainerDetailsByUserId(userId);
+	}
 }

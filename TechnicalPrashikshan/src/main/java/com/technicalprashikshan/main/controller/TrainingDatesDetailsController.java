@@ -31,7 +31,9 @@ public class TrainingDatesDetailsController {
 
 	@RequestMapping(value = "trainingdatesdetails", method = RequestMethod.POST)
 	public int newTrainingDatesDetails(@RequestBody TrainingDatesDetails trainingDatesDetails) {
+		logger.info("");
 		logger.info(trainingDatesDetails.toString());
+		logger.info("");
 		return trainingDatesDetailsService.addNewTrainingDatesDetails(trainingDatesDetails);
 	}
 

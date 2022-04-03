@@ -24,6 +24,7 @@ public class TrainerDetailsDAO implements TrainerDetailsDAOInterface {
 	private static final String deleteTrainerDetails = "delete from trainer_master where trainer_id = ?";
 	private static final String selectTrainerByTrainerId = "select * from trainer_master where trainer_id = ?";
 	private static final String selectAllTrainerDetails = "select * from trainer_master";
+	private static final String selectTrainerDetailsByUserId = "select * from trainer_master where user_id = ?";
 
 	private int count;
 
@@ -113,6 +114,21 @@ public class TrainerDetailsDAO implements TrainerDetailsDAOInterface {
 			logger.info("Failed To Delete Trainer Details");
 			return false;
 		}
+	}
+
+	@Override
+	public TrainerDetails getTrainerDetailsByUserId(int userId) {
+		TrainerDetails trainerDetails = null;
+		try {
+			Object[] args = { userId };
+			trainerDetails = jdbcTemplate.queryForObject(selectTrainerDetailsByUserId,
+					new TrainerDetailsRowMapper(jdbcTemplate), args);
+			if (trainerDetails != null)
+				return trainerDetails;
+		} catch (Exception e) {
+			logger.error("Exception :: " + e.getMessage());
+		}
+		return null;
 	}
 
 }

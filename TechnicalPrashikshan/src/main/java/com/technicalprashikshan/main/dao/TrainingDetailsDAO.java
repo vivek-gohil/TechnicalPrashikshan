@@ -1,6 +1,7 @@
 package com.technicalprashikshan.main.dao;
 
 import java.sql.PreparedStatement;
+import java.sql.Types;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -55,9 +56,14 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 			preparedStatement.setString(6, trainingDetails.getTrainingStatus());
 			preparedStatement.setInt(7, trainingDetails.getVendorDetails().getVendorId());
 			preparedStatement.setInt(8, trainingDetails.getClientDetails().getClientId());
-			preparedStatement.setString(9, trainingDetails.getPurchaseOrderDetails().getPurchseOrderId());
-			preparedStatement.setString(10, trainingDetails.getInvoiceDetails().getInvoiceId());
-
+			if (!trainingDetails.getPurchaseOrderDetails().getPurchseOrderId().equals(""))
+				preparedStatement.setString(9, trainingDetails.getPurchaseOrderDetails().getPurchseOrderId());
+			else
+				preparedStatement.setNull(9, Types.NULL);
+			if (!trainingDetails.getInvoiceDetails().getInvoiceId().equals(""))
+				preparedStatement.setString(10, trainingDetails.getInvoiceDetails().getInvoiceId());
+			else
+				preparedStatement.setNull(10, Types.NULL);
 			return preparedStatement;
 		}, keyHolder);
 

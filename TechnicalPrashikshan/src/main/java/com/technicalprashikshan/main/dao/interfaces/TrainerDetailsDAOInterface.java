@@ -14,4 +14,6 @@ public interface TrainerDetailsDAOInterface {
 	public List<TrainerDetails> getAllTrainerDetails();
 
 	public boolean deleteTrainerDetailsByTrainerId(int trainerId);
+
+	public TrainerDetails getTrainerDetailsByUserId(int userId);
 }

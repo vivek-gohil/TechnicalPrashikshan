@@ -40,4 +40,9 @@ public class TrainerDetailsService implements TrainerDetailsServiceInterface {
 		return trainerDetailsDAO.deleteTrainerDetailsByTrainerId(trainerId);
 	}
 
+	@Override
+	public TrainerDetails getTrainerDetailsByUserId(int userId) {
+		return trainerDetailsDAO.getTrainerDetailsByUserId(userId);
+	}
+
 }
