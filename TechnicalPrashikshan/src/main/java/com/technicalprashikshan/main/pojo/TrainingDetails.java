@@ -10,8 +10,6 @@ public class TrainingDetails {
 	private String trainingStatus;
 	private VendorDetails vendorDetails;
 	private ClientDetails clientDetails;
-	private PurchaseOrderDetails purchaseOrderDetails;
-	private InvoiceDetails invoiceDetails;
 
 	public TrainingDetails() {
 		// TODO Auto-generated constructor stub
@@ -19,7 +17,7 @@ public class TrainingDetails {
 
 	public TrainingDetails(int trainingDetailsId, String topic, int totalNumberOfDays, double perDayRate,
 			String sessionType, String remarks, String trainingStatus, VendorDetails vendorDetails,
-			ClientDetails clientDetails, PurchaseOrderDetails purchaseOrderDetails, InvoiceDetails invoiceDetails) {
+			ClientDetails clientDetails) {
 		super();
 		this.trainingDetailsId = trainingDetailsId;
 		this.topic = topic;
@@ -30,8 +28,6 @@ public class TrainingDetails {
 		this.trainingStatus = trainingStatus;
 		this.vendorDetails = vendorDetails;
 		this.clientDetails = clientDetails;
-		this.purchaseOrderDetails = purchaseOrderDetails;
-		this.invoiceDetails = invoiceDetails;
 	}
 
 	public int getTrainingDetailsId() {
@@ -106,29 +102,12 @@ public class TrainingDetails {
 		this.clientDetails = clientDetails;
 	}
 
-	public PurchaseOrderDetails getPurchaseOrderDetails() {
-		return purchaseOrderDetails;
-	}
-
-	public void setPurchaseOrderDetails(PurchaseOrderDetails purchaseOrderDetails) {
-		this.purchaseOrderDetails = purchaseOrderDetails;
-	}
-
-	public InvoiceDetails getInvoiceDetails() {
-		return invoiceDetails;
-	}
-
-	public void setInvoiceDetails(InvoiceDetails invoiceDetails) {
-		this.invoiceDetails = invoiceDetails;
-	}
-
 	@Override
 	public String toString() {
 		return "TrainingDetails [trainingDetailsId=" + trainingDetailsId + ", topic=" + topic + ", totalNumberOfDays="
 				+ totalNumberOfDays + ", perDayRate=" + perDayRate + ", sessionType=" + sessionType + ", remarks="
 				+ remarks + ", trainingStatus=" + trainingStatus + ", vendorDetails=" + vendorDetails
-				+ ", clientDetails=" + clientDetails + ", purchaseOrderDetails=" + purchaseOrderDetails
-				+ ", invoiceDetails=" + invoiceDetails + "]";
+				+ ", clientDetails=" + clientDetails + "]";
 	}
 
 }

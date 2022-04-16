@@ -1,7 +1,6 @@
 package com.technicalprashikshan.main.dao;
 
 import java.sql.PreparedStatement;
-import java.sql.Types;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -22,8 +21,8 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 
 	private static final Logger logger = LoggerFactory.getLogger(TrainingDetailsDAO.class);
 
-	private static final String insertNewTrainingDetails = "insert into training_details(topic,total_number_of_days,per_day_rate,session_type,remarks,training_status,vendor_id,client_id,purchase_order_id,invoice_id) values(?,?,?,?,?,?,?,?,?,?)";
-	private static final String updateTrainingDetails = "update training_details set topic = ? ,total_number_of_days = ? ,per_day_rate = ? ,session_type = ? , remarks = ? ,training_status = ? ,vendor_id = ? ,client_id = ? ,purchase_order_id = ? ,invoice_id = ?  where training_details_id = ?";
+	private static final String insertNewTrainingDetails = "insert into training_details(topic,total_number_of_days,per_day_rate,session_type,remarks,training_status,vendor_id,client_id) values(?,?,?,?,?,?,?,?)";
+	private static final String updateTrainingDetails = "update training_details set topic = ? ,total_number_of_days = ? ,per_day_rate = ? ,session_type = ? , remarks = ? ,training_status = ? ,vendor_id = ? ,client_id = ? where training_details_id = ?";
 	private static final String deleteTrainingDetails = "delete from training_details where training_details_id = ?";
 	private static final String selectTrainingByTrainingId = "select * from training_details where training_details_id = ?";
 	private static final String selectAllTrainingDetails = "select * from training_details";
@@ -56,14 +55,6 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 			preparedStatement.setString(6, trainingDetails.getTrainingStatus());
 			preparedStatement.setInt(7, trainingDetails.getVendorDetails().getVendorId());
 			preparedStatement.setInt(8, trainingDetails.getClientDetails().getClientId());
-			if (!trainingDetails.getPurchaseOrderDetails().getPurchseOrderId().equals(""))
-				preparedStatement.setString(9, trainingDetails.getPurchaseOrderDetails().getPurchseOrderId());
-			else
-				preparedStatement.setNull(9, Types.NULL);
-			if (!trainingDetails.getInvoiceDetails().getInvoiceId().equals(""))
-				preparedStatement.setString(10, trainingDetails.getInvoiceDetails().getInvoiceId());
-			else
-				preparedStatement.setNull(10, Types.NULL);
 			return preparedStatement;
 		}, keyHolder);
 
@@ -78,9 +69,7 @@ public class TrainingDetailsDAO implements TrainingDetailsDAOInterface {
 		Object[] args = { trainingDetails.getTopic(), trainingDetails.getTotalNumberOfDays(),
 				trainingDetails.getPerDayRate(), trainingDetails.getSessionType(), trainingDetails.getRemarks(),
 				trainingDetails.getTrainingStatus(), trainingDetails.getVendorDetails().getVendorId(),
-				trainingDetails.getClientDetails().getClientId(),
-				trainingDetails.getPurchaseOrderDetails().getPurchseOrderId(),
-				trainingDetails.getInvoiceDetails().getInvoiceId(), trainingDetails.getTrainingDetailsId() };
+				trainingDetails.getClientDetails().getClientId(), trainingDetails.getTrainingDetailsId() };
 		count = jdbcTemplate.update(updateTrainingDetails, args);
 		if (count > 0) {
 			logger.info("Training Details Updated Successfully");

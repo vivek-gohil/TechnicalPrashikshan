@@ -9,12 +9,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
 import com.technicalprashikshan.main.dao.ClientDetailsDAO;
-import com.technicalprashikshan.main.dao.InvoiceDetailsDAO;
-import com.technicalprashikshan.main.dao.PurchaseOrderDetailsDAO;
 import com.technicalprashikshan.main.dao.VendorDetailsDAO;
 import com.technicalprashikshan.main.pojo.ClientDetails;
-import com.technicalprashikshan.main.pojo.InvoiceDetails;
-import com.technicalprashikshan.main.pojo.PurchaseOrderDetails;
 import com.technicalprashikshan.main.pojo.TrainingDetails;
 import com.technicalprashikshan.main.pojo.VendorDetails;
 
@@ -46,15 +42,6 @@ public class TrainingDetailsRowMapper implements RowMapper<TrainingDetails> {
 		ClientDetails clientDetails = clientDetailsDAO.getClientDetailsByClientId(restultSet.getInt("client_id"));
 		trainingDetails.setClientDetails(clientDetails);
 
-		PurchaseOrderDetailsDAO purchaseOrderDetailsDAO = new PurchaseOrderDetailsDAO(jdbcTemplate);
-		PurchaseOrderDetails purchaseOrderDetails = purchaseOrderDetailsDAO
-				.getPurchaseOrderDetailsByPurchaseOrderId(restultSet.getString("purchase_order_id"));
-		trainingDetails.setPurchaseOrderDetails(purchaseOrderDetails);
-
-		InvoiceDetailsDAO invoiceDetailsDAO = new InvoiceDetailsDAO(jdbcTemplate);
-		InvoiceDetails invoiceDetails = invoiceDetailsDAO
-				.getInvoiceDetailsByInvoiceId(restultSet.getString("invoice_id"));
-		trainingDetails.setInvoiceDetails(invoiceDetails);
 
 		return trainingDetails;
 	}
