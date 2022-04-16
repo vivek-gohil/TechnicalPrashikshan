@@ -8,24 +8,21 @@ public class PurchaseOrderDetails {
 	private LocalDate receivedDate;
 	private FilesDetails purchaseOrderFile;
 	private String purchaseOrderStatus;
-	private VendorDetails vendorDetails;
-	private ClientDetails clientDetails;
+	private TrainingDetails trainingDetails;
 
 	public PurchaseOrderDetails() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public PurchaseOrderDetails(String purchseOrderId, double amount, LocalDate receivedDate,
-			FilesDetails purchaseOrderFile, String purchaseOrderStatus, VendorDetails vendorDetails,
-			ClientDetails clientDetails) {
+			FilesDetails purchaseOrderFile, String purchaseOrderStatus, TrainingDetails trainingDetails) {
 		super();
 		this.purchseOrderId = purchseOrderId;
 		this.amount = amount;
 		this.receivedDate = receivedDate;
 		this.purchaseOrderFile = purchaseOrderFile;
 		this.purchaseOrderStatus = purchaseOrderStatus;
-		this.vendorDetails = vendorDetails;
-		this.clientDetails = clientDetails;
+		this.trainingDetails = trainingDetails;
 	}
 
 	public String getPurchseOrderId() {
@@ -68,27 +65,19 @@ public class PurchaseOrderDetails {
 		this.purchaseOrderStatus = purchaseOrderStatus;
 	}
 
-	public VendorDetails getVendorDetails() {
-		return vendorDetails;
+	public TrainingDetails getTrainingDetails() {
+		return trainingDetails;
 	}
 
-	public void setVendorDetails(VendorDetails vendorDetails) {
-		this.vendorDetails = vendorDetails;
-	}
-
-	public ClientDetails getClientDetails() {
-		return clientDetails;
-	}
-
-	public void setClientDetails(ClientDetails clientDetails) {
-		this.clientDetails = clientDetails;
+	public void setTrainingDetails(TrainingDetails trainingDetails) {
+		this.trainingDetails = trainingDetails;
 	}
 
 	@Override
 	public String toString() {
 		return "PurchaseOrderDetails [purchseOrderId=" + purchseOrderId + ", amount=" + amount + ", receivedDate="
 				+ receivedDate + ", purchaseOrderFile=" + purchaseOrderFile + ", purchaseOrderStatus="
-				+ purchaseOrderStatus + ", vendorDetails=" + vendorDetails + ", clientDetails=" + clientDetails + "]";
+				+ purchaseOrderStatus + ", trainingDetails=" + trainingDetails + "]";
 	}
 
 }

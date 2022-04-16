@@ -1,6 +1,7 @@
 package com.technicalprashikshan.main.dao;
 
 import java.sql.PreparedStatement;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Repository;
 
 import com.technicalprashikshan.main.dao.interfaces.TrainingDatesDetailsDAOInterface;
 import com.technicalprashikshan.main.dao.rowmappers.TrainingDatesDetailsRowMapper;
+import com.technicalprashikshan.main.pojo.DaysDetails;
 import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingDatesDetails;
 
@@ -26,10 +28,19 @@ public class TrainingDatesDetailsDAO implements TrainingDatesDetailsDAOInterface
 	private static final String selectTrainingDatesByTrainingDatesId = "select * from training_dates_details where training_date_id = ?";
 	private static final String selectAllTrainingDatesDetails = "select * from training_dates_details";
 	private static final String selectAllTrainingDatesByMonthStartDate = "select * from training_dates_details where day_id IN ( select day_id from days_master where month_id = (select month_id from months_master where month_start_date = ?))";
+	private static final String selectAllTrainingDatesByTrainingDetailsId = "select * from training_dates_details where training_details_id = ?";
 	private int count;
 
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
+
+	public TrainingDatesDetailsDAO() {
+
+	}
+
+	public TrainingDatesDetailsDAO(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
 
 	@Override
 	public int addNewTrainingDatesDetails(TrainingDatesDetails trainingDatesDetails) {
@@ -108,6 +119,18 @@ public class TrainingDatesDetailsDAO implements TrainingDatesDetailsDAOInterface
 		List<TrainingDatesDetails> trainingDatesDetailsList = jdbcTemplate.query(selectAllTrainingDatesByMonthStartDate,
 				new TrainingDatesDetailsRowMapper(jdbcTemplate), args);
 		return trainingDatesDetailsList;
+	}
+
+	@Override
+	public List<DaysDetails> getAllTrainingDatesDetailsByTrainingDetailsId(int trainingDetailsId) {
+		Object[] args = { trainingDetailsId };
+		List<TrainingDatesDetails> trainingDatesDetailsList = jdbcTemplate.query(
+				selectAllTrainingDatesByTrainingDetailsId, new TrainingDatesDetailsRowMapper(jdbcTemplate), args);
+		List<DaysDetails> daysDetails = new ArrayList<DaysDetails>();
+		for (TrainingDatesDetails trainingDatesDetails : trainingDatesDetailsList) {
+			daysDetails.add(trainingDatesDetails.getDaysDetails());
+		}
+		return daysDetails;
 	}
 
 }

@@ -10,10 +10,12 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.technicalprashikshan.main.dao.ClientDetailsDAO;
 import com.technicalprashikshan.main.dao.FilesDetailsDAO;
+import com.technicalprashikshan.main.dao.TrainingDetailsDAO;
 import com.technicalprashikshan.main.dao.VendorDetailsDAO;
 import com.technicalprashikshan.main.pojo.ClientDetails;
 import com.technicalprashikshan.main.pojo.FilesDetails;
 import com.technicalprashikshan.main.pojo.PurchaseOrderDetails;
+import com.technicalprashikshan.main.pojo.TrainingDetails;
 import com.technicalprashikshan.main.pojo.VendorDetails;
 
 public class PurchaseOrderDetailsRowMapper implements RowMapper<PurchaseOrderDetails> {
@@ -40,13 +42,10 @@ public class PurchaseOrderDetailsRowMapper implements RowMapper<PurchaseOrderDet
 
 		purchaseOrderDetails.setPurchaseOrderStatus(resultSet.getString("purchase_order_status"));
 
-		VendorDetailsDAO vendorDetailsDAO = new VendorDetailsDAO(jdbcTemplate);
-		VendorDetails vendorDetails = vendorDetailsDAO.getVendorDetailsByVendorId(resultSet.getInt("vendor_id"));
-		purchaseOrderDetails.setVendorDetails(vendorDetails);
-
-		ClientDetailsDAO clientDetailsDAO = new ClientDetailsDAO(jdbcTemplate);
-		ClientDetails clientDetails = clientDetailsDAO.getClientDetailsByClientId(resultSet.getInt("client_id"));
-		purchaseOrderDetails.setClientDetails(clientDetails);
+		TrainingDetailsDAO trainingDetailsDAO = new TrainingDetailsDAO(jdbcTemplate);
+		TrainingDetails trainingDetails = trainingDetailsDAO
+				.getTrainingDetailsByTrainingId(resultSet.getInt("training_details_id"));
+		purchaseOrderDetails.setTrainingDetails(trainingDetails);
 
 		return purchaseOrderDetails;
 	}

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.technicalprashikshan.main.pojo.DaysDetails;
 import com.technicalprashikshan.main.pojo.MonthsDetails;
 import com.technicalprashikshan.main.pojo.TrainingDatesDetails;
 import com.technicalprashikshan.main.service.interfaces.TrainingDatesDetailsServiceInterface;
@@ -62,10 +63,17 @@ public class TrainingDatesDetailsController {
 	}
 
 	@RequestMapping(value = "trainingdatesdetails/bymonthstartdate", method = RequestMethod.POST)
-	public List<TrainingDatesDetails> getAllTrainingDatesDetailsByMonthStartDate(@RequestBody MonthsDetails monthsDetails) {
+	public List<TrainingDatesDetails> getAllTrainingDatesDetailsByMonthStartDate(
+			@RequestBody MonthsDetails monthsDetails) {
 		logger.info("Retriving all getAllTrainingDatesDetailsByMonthStartDate");
 		logger.info(monthsDetails.toString());
 		return trainingDatesDetailsService.getAllTrainingDatesDetailsByMonthStartDate(monthsDetails);
+	}
+
+	@RequestMapping(value = "trainingdatesdetails/bytrainingdetailsid/{trainingDetailsId}", method = RequestMethod.GET)
+	public List<DaysDetails> getAllTrainingDatesDetailsByTrainingDetailsId(@PathVariable int trainingDetailsId) {
+		logger.info("Retriving all getAllTrainingDatesDetailsByTrainingDetailsId");
+		return trainingDatesDetailsService.getAllTrainingDatesDetailsByTrainingDetailsId(trainingDetailsId);
 	}
 
 }

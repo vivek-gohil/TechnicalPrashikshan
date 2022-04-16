@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import com.technicalprashikshan.main.dao.interfaces.InvoiceDetailsDAOInterface;
 import com.technicalprashikshan.main.dao.rowmappers.InvoiceDetailsRowMapper;
+import com.technicalprashikshan.main.pojo.DaysDetails;
 import com.technicalprashikshan.main.pojo.InvoiceDetails;
 
 @Repository
@@ -38,6 +39,9 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 	@Override
 	public String addNewInvoiceDetails(InvoiceDetails invoiceDetails) {
 		logger.info(invoiceDetails.toString());
+		// Step 1. Generate PDF File Code
+		// Step 2. Insert the PDF into database and get the fileid
+
 		Object[] args = { invoiceDetails.getInvoiceId(), invoiceDetails.getRaisedDate(),
 				invoiceDetails.getClearingDate(), invoiceDetails.getAmount(), invoiceDetails.getAmountInWords(),
 				invoiceDetails.getInvoiceFile().getFileId(), invoiceDetails.getInvoiceStatus(),
@@ -79,8 +83,15 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 			Object[] args = { invoiceId };
 			invoiceDetails = jdbcTemplate.queryForObject(selectInvoiceByInvoiceId,
 					new InvoiceDetailsRowMapper(jdbcTemplate), args);
-			if (invoiceDetails != null)
+			if (invoiceDetails != null) {
+				TrainingDatesDetailsDAO trainingDatesDetailsDAO = new TrainingDatesDetailsDAO(jdbcTemplate);
+				List<DaysDetails> trainingDaysDetails = trainingDatesDetailsDAO
+						.getAllTrainingDatesDetailsByTrainingDetailsId(
+								invoiceDetails.getTrainingDetails().getTrainingDetailsId());
+				invoiceDetails.setTrainingDaysDetails(trainingDaysDetails);
 				return invoiceDetails;
+			}
+
 		} catch (Exception e) {
 			logger.error("Exception :: " + e.getMessage());
 		}
@@ -91,6 +102,14 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 	public List<InvoiceDetails> getAllInvoiceDetails() {
 		List<InvoiceDetails> invoiceDetailsList = jdbcTemplate.query(selectAllInvoiceDetails,
 				new InvoiceDetailsRowMapper(jdbcTemplate));
+		TrainingDatesDetailsDAO trainingDatesDetailsDAO = new TrainingDatesDetailsDAO(jdbcTemplate);
+		for (InvoiceDetails invoiceDetails : invoiceDetailsList) {
+			List<DaysDetails> trainingDaysDetails = trainingDatesDetailsDAO
+					.getAllTrainingDatesDetailsByTrainingDetailsId(
+							invoiceDetails.getTrainingDetails().getTrainingDetailsId());
+			invoiceDetails.setTrainingDaysDetails(trainingDaysDetails);
+
+		}
 		return invoiceDetailsList;
 	}
 

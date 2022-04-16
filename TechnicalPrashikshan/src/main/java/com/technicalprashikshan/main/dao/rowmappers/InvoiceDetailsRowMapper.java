@@ -2,6 +2,7 @@ package com.technicalprashikshan.main.dao.rowmappers;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,10 +10,17 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
 import com.technicalprashikshan.main.dao.FilesDetailsDAO;
+import com.technicalprashikshan.main.dao.PurchaseOrderDetailsDAO;
 import com.technicalprashikshan.main.dao.TrainerDetailsDAO;
+import com.technicalprashikshan.main.dao.TrainingDatesDetailsDAO;
+import com.technicalprashikshan.main.dao.TrainingDetailsDAO;
+import com.technicalprashikshan.main.pojo.DaysDetails;
 import com.technicalprashikshan.main.pojo.FilesDetails;
 import com.technicalprashikshan.main.pojo.InvoiceDetails;
+import com.technicalprashikshan.main.pojo.PurchaseOrderDetails;
 import com.technicalprashikshan.main.pojo.TrainerDetails;
+import com.technicalprashikshan.main.pojo.TrainingDatesDetails;
+import com.technicalprashikshan.main.pojo.TrainingDetails;
 
 public class InvoiceDetailsRowMapper implements RowMapper<InvoiceDetails> {
 	private static final Logger logger = LoggerFactory.getLogger(InvoiceDetailsRowMapper.class);
@@ -45,6 +53,15 @@ public class InvoiceDetailsRowMapper implements RowMapper<InvoiceDetails> {
 		TrainerDetails trainerDetails = trainerDetailsDAO.getTrainerDetailsByTrainerId(resultSet.getInt("trainer_id"));
 		invoiceDetails.setTrainerDetails(trainerDetails);
 
+		TrainingDetailsDAO trainingDetailsDAO = new TrainingDetailsDAO(jdbcTemplate);
+		TrainingDetails trainingDetails = trainingDetailsDAO.getTrainingDetailsByTrainingId(resultSet.getInt("training_details_id"));
+		invoiceDetails.setTrainingDetails(trainingDetails);
+
+		PurchaseOrderDetailsDAO purchaseOrderDetailsDAO = new PurchaseOrderDetailsDAO(jdbcTemplate);
+		PurchaseOrderDetails purchaseOrderDetails = purchaseOrderDetailsDAO
+				.getPurchaseOrderDetailsByPurchaseOrderId(resultSet.getString("purchase_order_id"));
+		invoiceDetails.setPurchaseOrderDetails(purchaseOrderDetails);
+		
 		return invoiceDetails;
 	}
 

@@ -17,8 +17,8 @@ public class PurchaseOrderDetailsDAO implements PurchaseOrderDetailsDAOInterface
 
 	private static final Logger logger = LoggerFactory.getLogger(PurchaseOrderDetailsDAO.class);
 
-	private static final String insertNewPurchaseOrderDetails = "insert into purchase_order_details(purchase_order_id,amount,received_date,purchase_order_file_id,purchase_order_status,vendor_id,client_id) values (?,?,?,?,?,?,?)";
-	private static final String updatePurchaseOrderDetails = "update purchase_order_details set amount = ? ,received_date = ? ,purchase_order_file_id = ? ,purchase_order_status = ? ,vendor_id = ? ,client_id = ? where purchase_order_id = ? ";
+	private static final String insertNewPurchaseOrderDetails = "insert into purchase_order_details(purchase_order_id,amount,received_date,purchase_order_file_id,purchase_order_status, training_details_id ) values (?,?,?,?,?,?)";
+	private static final String updatePurchaseOrderDetails = "update purchase_order_details set amount = ? ,received_date = ? , purchase_order_file_id = ? , purchase_order_status = ? , training_details_id = ? where purchase_order_id = ? ";
 	private static final String deletePurchaseOrderDetails = "delete from purchase_order_details where purchase_order_id = ?";
 	private static final String selectPurchaseOrderByPurchaseOrderId = "select * from purchase_order_details where purchase_order_id = ?";
 	private static final String selectAllPurchaseOrderDetails = "select * from purchase_order_details ";
@@ -41,8 +41,8 @@ public class PurchaseOrderDetailsDAO implements PurchaseOrderDetailsDAOInterface
 
 		Object[] args = { purchaseOrderDetails.getPurchseOrderId(), purchaseOrderDetails.getAmount(),
 				purchaseOrderDetails.getReceivedDate(), purchaseOrderDetails.getPurchaseOrderFile().getFileId(),
-				purchaseOrderDetails.getPurchaseOrderStatus(), purchaseOrderDetails.getVendorDetails().getVendorId(),
-				purchaseOrderDetails.getClientDetails().getClientId() };
+				purchaseOrderDetails.getPurchaseOrderStatus(),
+				purchaseOrderDetails.getTrainingDetails().getTrainingDetailsId() };
 		count = jdbcTemplate.update(insertNewPurchaseOrderDetails, args);
 		if (count > 0) {
 			logger.info("Purchase Order Details Inserted Successfully");
@@ -57,8 +57,8 @@ public class PurchaseOrderDetailsDAO implements PurchaseOrderDetailsDAOInterface
 		logger.info(purchaseOrderDetails.toString());
 		Object[] args = { purchaseOrderDetails.getAmount(), purchaseOrderDetails.getReceivedDate(),
 				purchaseOrderDetails.getPurchaseOrderFile().getFileId(), purchaseOrderDetails.getPurchaseOrderStatus(),
-				purchaseOrderDetails.getVendorDetails().getVendorId(),
-				purchaseOrderDetails.getClientDetails().getClientId(), purchaseOrderDetails.getPurchseOrderId() };
+				purchaseOrderDetails.getTrainingDetails().getTrainingDetailsId(),
+				purchaseOrderDetails.getPurchseOrderId() };
 		count = jdbcTemplate.update(updatePurchaseOrderDetails, args);
 		if (count > 0) {
 			logger.info("Purchase Order Details Updated Successfully");
