@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 
 import com.technicalprashikshan.main.dao.interfaces.InvoiceDetailsDAOInterface;
 import com.technicalprashikshan.main.dao.rowmappers.InvoiceDetailsRowMapper;
-import com.technicalprashikshan.main.pojo.DaysDetails;
 import com.technicalprashikshan.main.pojo.InvoiceDetails;
 
 @Repository
@@ -18,7 +17,7 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 
 	private static final Logger logger = LoggerFactory.getLogger(InvoiceDetailsDAO.class);
 
-	private static final String insertNewInvoiceDetails = "insert into invoice_details(invoice_id,raised_date,clearing_date,invoice_amount,invoice_amount_in_words,invoice_file_id,invoice_status,invoice_cleared_amount,tax_deducted_amount,trainer_id) values(?,?,?,?,?,?,?,?,?,?)";
+	private static final String insertNewInvoiceDetails = "insert into invoice_details(invoice_id,raised_date,clearing_date,invoice_amount,invoice_amount_in_words,invoice_file_id,invoice_status,invoice_cleared_amount,tax_deducted_amount,trainer_id,training_details_id,purchase_order_id) values(?,?,?,?,?,?,?,?,?,?,?,?)";
 	private static final String updateInvoiceDetails = "update invoice_details set raised_date = ? ,clearing_date = ? ,invoice_amount = ? ,invoice_amount_in_words = ? ,invoice_file_id = ? ,invoice_status = ? ,invoice_cleared_amount = ? ,tax_deducted_amount = ? ,trainer_id = ? where invoice_id = ? ";
 	private static final String deleteInvoiceDetails = "delete from invoice_details where invoice_id = ?";
 	private static final String selectInvoiceByInvoiceId = "select * from invoice_details where invoice_id = ?";
@@ -46,7 +45,9 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 				invoiceDetails.getClearingDate(), invoiceDetails.getAmount(), invoiceDetails.getAmountInWords(),
 				invoiceDetails.getInvoiceFile().getFileId(), invoiceDetails.getInvoiceStatus(),
 				invoiceDetails.getClearedAmount(), invoiceDetails.getTaxDeductedAmount(),
-				invoiceDetails.getTrainerDetails().getTrainerId() };
+				invoiceDetails.getTrainerDetails().getTrainerId(),
+				invoiceDetails.getTrainingDetails().getTrainingDetailsId(),
+				invoiceDetails.getPurchaseOrderDetails().getPurchseOrderId() };
 		count = jdbcTemplate.update(insertNewInvoiceDetails, args);
 		if (count > 0) {
 			logger.info("Invoice Details Inserted Successfully");
@@ -84,11 +85,6 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 			invoiceDetails = jdbcTemplate.queryForObject(selectInvoiceByInvoiceId,
 					new InvoiceDetailsRowMapper(jdbcTemplate), args);
 			if (invoiceDetails != null) {
-				TrainingDatesDetailsDAO trainingDatesDetailsDAO = new TrainingDatesDetailsDAO(jdbcTemplate);
-				List<DaysDetails> trainingDaysDetails = trainingDatesDetailsDAO
-						.getAllTrainingDatesDetailsByTrainingDetailsId(
-								invoiceDetails.getTrainingDetails().getTrainingDetailsId());
-				invoiceDetails.setTrainingDaysDetails(trainingDaysDetails);
 				return invoiceDetails;
 			}
 
@@ -102,14 +98,6 @@ public class InvoiceDetailsDAO implements InvoiceDetailsDAOInterface {
 	public List<InvoiceDetails> getAllInvoiceDetails() {
 		List<InvoiceDetails> invoiceDetailsList = jdbcTemplate.query(selectAllInvoiceDetails,
 				new InvoiceDetailsRowMapper(jdbcTemplate));
-		TrainingDatesDetailsDAO trainingDatesDetailsDAO = new TrainingDatesDetailsDAO(jdbcTemplate);
-		for (InvoiceDetails invoiceDetails : invoiceDetailsList) {
-			List<DaysDetails> trainingDaysDetails = trainingDatesDetailsDAO
-					.getAllTrainingDatesDetailsByTrainingDetailsId(
-							invoiceDetails.getTrainingDetails().getTrainingDetailsId());
-			invoiceDetails.setTrainingDaysDetails(trainingDaysDetails);
-
-		}
 		return invoiceDetailsList;
 	}
 

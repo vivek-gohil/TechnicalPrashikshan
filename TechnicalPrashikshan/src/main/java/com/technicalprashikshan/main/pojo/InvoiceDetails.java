@@ -1,7 +1,6 @@
 package com.technicalprashikshan.main.pojo;
 
 import java.time.LocalDate;
-import java.util.List;
 
 public class InvoiceDetails {
 	private String invoiceId;
@@ -16,15 +15,15 @@ public class InvoiceDetails {
 	private TrainerDetails trainerDetails;
 	private TrainingDetails trainingDetails;
 	private PurchaseOrderDetails purchaseOrderDetails;
-	private List<DaysDetails> trainingDaysDetails;
 
 	public InvoiceDetails() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public InvoiceDetails(String invoiceId, LocalDate raisedDate, LocalDate clearingDate, double amount,
 			String amountInWords, FilesDetails invoiceFile, String invoiceStatus, double clearedAmount,
 			double taxDeductedAmount, TrainerDetails trainerDetails, TrainingDetails trainingDetails,
-			PurchaseOrderDetails purchaseOrderDetails, List<DaysDetails> trainingDaysDetails) {
+			PurchaseOrderDetails purchaseOrderDetails) {
 		super();
 		this.invoiceId = invoiceId;
 		this.raisedDate = raisedDate;
@@ -38,7 +37,6 @@ public class InvoiceDetails {
 		this.trainerDetails = trainerDetails;
 		this.trainingDetails = trainingDetails;
 		this.purchaseOrderDetails = purchaseOrderDetails;
-		this.trainingDaysDetails = trainingDaysDetails;
 	}
 
 	public String getInvoiceId() {
@@ -137,22 +135,13 @@ public class InvoiceDetails {
 		this.purchaseOrderDetails = purchaseOrderDetails;
 	}
 
-	public List<DaysDetails> getTrainingDaysDetails() {
-		return trainingDaysDetails;
-	}
-
-	public void setTrainingDaysDetails(List<DaysDetails> trainingDaysDetails) {
-		this.trainingDaysDetails = trainingDaysDetails;
-	}
-
 	@Override
 	public String toString() {
 		return "InvoiceDetails [invoiceId=" + invoiceId + ", raisedDate=" + raisedDate + ", clearingDate="
 				+ clearingDate + ", amount=" + amount + ", amountInWords=" + amountInWords + ", invoiceFile="
 				+ invoiceFile + ", invoiceStatus=" + invoiceStatus + ", clearedAmount=" + clearedAmount
 				+ ", taxDeductedAmount=" + taxDeductedAmount + ", trainerDetails=" + trainerDetails
-				+ ", trainingDetails=" + trainingDetails + ", purchaseOrderDetails=" + purchaseOrderDetails
-				+ ", trainingDaysDetails=" + trainingDaysDetails + "]";
+				+ ", trainingDetails=" + trainingDetails + ", purchaseOrderDetails=" + purchaseOrderDetails + "]";
 	}
 
 }
