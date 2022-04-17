@@ -19,8 +19,8 @@ import com.technicalprashikshan.main.pojo.TrainerDetails;
 public class TrainerDetailsDAO implements TrainerDetailsDAOInterface {
 	private static final Logger logger = LoggerFactory.getLogger(TrainerDetailsDAO.class);
 
-	private static final String insertNewTrainerDetails = "insert into trainer_master(first_name,last_name,per_day_rate,profile_file_id,trainer_description,trainer_status,trainer_contact_id,user_id,banking_id) values(?,?,?,?,?,?,?,?,?)";
-	private static final String updateTrainerDetails = "update trainer_master set first_name = ? ,last_name = ? ,per_day_rate = ? ,profile_file_id = ? ,trainer_description = ? ,trainer_status = ? ,trainer_contact_id = ? ,user_id = ? ,banking_id = ?  where trainer_id = ?";
+	private static final String insertNewTrainerDetails = "insert into trainer_master(first_name,last_name,per_day_rate,profile_file_id,trainer_description,trainer_status,address_line_one,address_line_two,landmark,city,state,pin,trainer_contact_id,user_id,banking_id) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+	private static final String updateTrainerDetails = "update trainer_master set first_name = ? ,last_name = ? ,per_day_rate = ? ,profile_file_id = ? ,trainer_description = ? ,trainer_status = ? , address_line_one = ? ,address_line_two = ? ,landmark = ? ,city = ? ,state = ? ,pin = ? ,trainer_contact_id = ? ,user_id = ? ,banking_id = ?  where trainer_id = ?";
 	private static final String deleteTrainerDetails = "delete from trainer_master where trainer_id = ?";
 	private static final String selectTrainerByTrainerId = "select * from trainer_master where trainer_id = ?";
 	private static final String selectAllTrainerDetails = "select * from trainer_master";
@@ -51,9 +51,15 @@ public class TrainerDetailsDAO implements TrainerDetailsDAOInterface {
 			preparedStatement.setInt(4, trainerDetails.getProfile().getFileId());
 			preparedStatement.setString(5, trainerDetails.getDescription());
 			preparedStatement.setString(6, trainerDetails.getTrainerStatus());
-			preparedStatement.setInt(7, trainerDetails.getTrainerContactDetails().getContactId());
-			preparedStatement.setInt(8, trainerDetails.getUserDetails().getUserId());
-			preparedStatement.setInt(9, trainerDetails.getBankingDetails().getBankingDetailsId());
+			preparedStatement.setString(7,trainerDetails.getAddressLineOne());
+			preparedStatement.setString(8,trainerDetails.getAddressLineTwo());
+			preparedStatement.setString(9,trainerDetails.getLandmark());
+			preparedStatement.setString(10,trainerDetails.getCity());
+			preparedStatement.setString(11,trainerDetails.getState());
+			preparedStatement.setString(12,trainerDetails.getPin());
+			preparedStatement.setInt(13, trainerDetails.getTrainerContactDetails().getContactId());
+			preparedStatement.setInt(14, trainerDetails.getUserDetails().getUserId());
+			preparedStatement.setInt(15, trainerDetails.getBankingDetails().getBankingDetailsId());
 			return preparedStatement;
 		}, keyHolder);
 
@@ -67,9 +73,11 @@ public class TrainerDetailsDAO implements TrainerDetailsDAOInterface {
 		logger.info(trainerDetails.toString());
 		Object[] args = { trainerDetails.getFirstName(), trainerDetails.getLastName(), trainerDetails.getPerDayRate(),
 				trainerDetails.getProfile().getFileId(), trainerDetails.getDescription(),
-				trainerDetails.getTrainerStatus(), trainerDetails.getTrainerContactDetails().getContactId(),
-				trainerDetails.getUserDetails().getUserId(), trainerDetails.getBankingDetails().getBankingDetailsId(),
-				trainerDetails.getTrainerId() };
+				trainerDetails.getTrainerStatus(), trainerDetails.getAddressLineOne(),
+				trainerDetails.getAddressLineTwo(), trainerDetails.getLandmark(), trainerDetails.getCity(),
+				trainerDetails.getState(), trainerDetails.getPin(),
+				trainerDetails.getTrainerContactDetails().getContactId(), trainerDetails.getUserDetails().getUserId(),
+				trainerDetails.getBankingDetails().getBankingDetailsId(), trainerDetails.getTrainerId() };
 		count = jdbcTemplate.update(updateTrainerDetails, args);
 		if (count > 0) {
 			logger.info("Trainer Details Updated Successfully");

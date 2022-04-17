@@ -8,16 +8,24 @@ public class TrainerDetails {
 	private FilesDetails profile;
 	private String description;
 	private String trainerStatus;
+	private String addressLineOne;
+	private String addressLineTwo;
+	private String landmark;
+	private String city;
+	private String state;
+	private String pin;
 	private ContactDetails trainerContactDetails;
 	private UserDetails userDetails;
 	private BankingDetails bankingDetails;
 
 	public TrainerDetails() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public TrainerDetails(int trainerId, String firstName, String lastName, double perDayRate, FilesDetails profile,
-			String description, String trainerDesrciption, String trainerStatus, ContactDetails trainerContactDetails,
-			UserDetails userDetails, BankingDetails bankingDetails) {
+			String description, String trainerStatus, String addressLineOne, String addressLineTwo, String landmark,
+			String city, String state, String pin, ContactDetails trainerContactDetails, UserDetails userDetails,
+			BankingDetails bankingDetails) {
 		super();
 		this.trainerId = trainerId;
 		this.firstName = firstName;
@@ -26,6 +34,12 @@ public class TrainerDetails {
 		this.profile = profile;
 		this.description = description;
 		this.trainerStatus = trainerStatus;
+		this.addressLineOne = addressLineOne;
+		this.addressLineTwo = addressLineTwo;
+		this.landmark = landmark;
+		this.city = city;
+		this.state = state;
+		this.pin = pin;
 		this.trainerContactDetails = trainerContactDetails;
 		this.userDetails = userDetails;
 		this.bankingDetails = bankingDetails;
@@ -87,6 +101,54 @@ public class TrainerDetails {
 		this.trainerStatus = trainerStatus;
 	}
 
+	public String getAddressLineOne() {
+		return addressLineOne;
+	}
+
+	public void setAddressLineOne(String addressLineOne) {
+		this.addressLineOne = addressLineOne;
+	}
+
+	public String getAddressLineTwo() {
+		return addressLineTwo;
+	}
+
+	public void setAddressLineTwo(String addressLineTwo) {
+		this.addressLineTwo = addressLineTwo;
+	}
+
+	public String getLandmark() {
+		return landmark;
+	}
+
+	public void setLandmark(String landmark) {
+		this.landmark = landmark;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public String getPin() {
+		return pin;
+	}
+
+	public void setPin(String pin) {
+		this.pin = pin;
+	}
+
 	public ContactDetails getTrainerContactDetails() {
 		return trainerContactDetails;
 	}
@@ -115,8 +177,10 @@ public class TrainerDetails {
 	public String toString() {
 		return "TrainerDetails [trainerId=" + trainerId + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", perDayRate=" + perDayRate + ", profile=" + profile + ", description=" + description
-				+ ", trainerStatus=" + trainerStatus + ", trainerContactDetails=" + trainerContactDetails
-				+ ", userDetails=" + userDetails + ", bankingDetails=" + bankingDetails + "]";
+				+ ", trainerStatus=" + trainerStatus + ", addressLineOne=" + addressLineOne + ", addressLineTwo="
+				+ addressLineTwo + ", landmark=" + landmark + ", city=" + city + ", state=" + state + ", pin=" + pin
+				+ ", trainerContactDetails=" + trainerContactDetails + ", userDetails=" + userDetails
+				+ ", bankingDetails=" + bankingDetails + "]";
 	}
 
 }

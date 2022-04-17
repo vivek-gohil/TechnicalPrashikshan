@@ -41,6 +41,12 @@ public class TrainerDetailsRowMapper implements RowMapper<TrainerDetails> {
 
 		trainerDetails.setDescription(resultSet.getString("trainer_description"));
 		trainerDetails.setTrainerStatus(resultSet.getString("trainer_status"));
+		trainerDetails.setAddressLineOne(resultSet.getString("address_line_one"));
+		trainerDetails.setAddressLineTwo(resultSet.getString("address_line_two"));
+		trainerDetails.setLandmark(resultSet.getString("landmark"));
+		trainerDetails.setCity(resultSet.getString("city"));
+		trainerDetails.setState(resultSet.getString("state"));
+		trainerDetails.setPin(resultSet.getString("pin"));
 
 		ContactDetailsDAO contactDetailsDAO = new ContactDetailsDAO(jdbcTemplate);
 		ContactDetails contactDetails = contactDetailsDAO.getContactDetailsByContactId(resultSet.getInt("trainer_contact_id"));
